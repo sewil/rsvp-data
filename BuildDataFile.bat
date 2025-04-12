@@ -1,3 +1,3 @@
 echo f | xcopy /f /y Data.wz Data.wz.bak
-"..\Harepacker-resurrected\HaRepackerCLI\HarepackerCLI\bin\Debug\net8.0-windows7.0\HarepackerCLI.exe" "42e3fbee-cbe9-4366-ae4e-c38d651d7dc2" ".\\" "Data.wz" ".git;Exports;Server;HaCreator;Resources;"
+"..\Harepacker-resurrected\HaRepackerCLI\HarepackerCLI\bin\Debug\net8.0-windows7.0\HarepackerCLI.exe" "42e3fbee-cbe9-4366-ae4e-c38d651d7dc2" ".\\" "Data.wz" "packignore.txt"
 "..\rsvp-server\BinSvr\WvsBeta.AdminKeygen.exe" sign "Data.wz" "..\rsvp-server\DataSvr\server_private.key.xml" "..\rsvp-client\Data.wz"
