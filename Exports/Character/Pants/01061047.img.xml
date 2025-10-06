@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01061047.img">
+<imgdir name="info">
+<canvas name="icon" width="27" height="28" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAcCAYAAACQ0cTtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHrSURBVEhLrZaBsYMgEERpIS2kBVtIC2nBFmwhLdBCWkgLtpAWbIE/e9ziwjcaNczsKCD32APFELZL2qFTJVmJIaUR912+jyG9e2/jfTwPzAADpXS/XHPd26zuMOgMLKVpSmkcK1cAPG+9qTgGcIimo8CcQofNrlDcrbRPz9ePYKmzoMO1M8XuVoQ6yg9hyYIida97TiFFGJ77ESw7QvCxH0yEZhjSOpq7I7DiSGEAvB+xAiKVCsN1LzDvRBTbkaGCEVjBpukEjCBzFywoggOiQHsFWA6mchHG9BE4w7KzI7B5vQyWtz2CAqDuCLN3zd67/etWu5JtT5gCcd/uyBOweSdyU3yEoexIZU4hQB82B98vrduORBpl3b5xV2ZX3AmMoBZOGCHfwGZX5Tp/5dWVwrWN7vidXAPWafAU6meKLvQ7SZitm6RyDVZSxxTQGQNTqMMtoG07zjVN5RKwSp89LClEkPZIwZildp7c6q5dvwpUUuinsp5jBHGShBBEWOtOX4Vy0irI2jFLnsr+r+GDLmv9+XcBJzzXrozzVMog77j6tdVN1Paxf/NHqB1wDyH0rkH0WJD2Uxqv82xYwQ2cENIGjhtq4ZwAJop4/2BoWHP0SXyWgSnEQkyYKCAFooPCg60YoJWOY3CqlD9OWJ68GKu4LwAAAABJRU5ErkJggg==">
+<vector name="origin" x="-3" y="28"/>
+</canvas>
+<canvas name="iconRaw" width="27" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAZCAYAAADAHFVeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGsSURBVEhLrZYNlYMwEIRj4SzUAhZqoRawgIWzgIVaqAUs1AIW9t5sMskkB7T87Hv7IAH2YyYJIYTPYTvyVJjHGMwmnHfxfAz27lMfz8fzwAhwkNnj5xbbqc/bCYY8AzObZ7NpqlQB8Lz3nlkxgMPoeRQYLUywogqR1Er//HxdBLPOiw63znPs7jnRRlwIMy8K616PaCGTMNx3ESwqQvGpHzwJjTDYOrm6I7CsSGEAvH/HCggrFYbjXmCciQifkaGCEVjB5vkEjCBXF7woigOiQF8CjINWLsJoH4EFFpUdgZXxclic9igKgKojzNear7v941arkmlPmAJx3s7IE7AyEzkpVmGIHVZGCwFamRxcX9r2GQkbZdy+UZffLqsTGEEtnDBCvoEVVflYvvKqSuHaR3X8Tm4BaxuShfqZogr9ThLm4yZWbsGydbSAyliYiTbUAtr2Y19TK5eAlX1+s1iIIu2WgmeW+rlzq7p2/CpQtjDtyrqPEcSXJIQgwlp1uhTyTqsg78dbcldO/xoKW7sefxeww3Psqufqh7TgQmq016oX2foRah84G//q/QH7QX2Z/F+DaAAAAABJRU5ErkJggg==">
+<vector name="origin" x="-3" y="28"/>
+</canvas>
+<string name="islot" value="Pn"/>
+<string name="vslot" value="Pn"/>
+<int name="reqJob" value="2"/>
+<int name="reqLevel" value="33"/>
+<int name="reqSTR" value="0"/>
+<int name="reqDEX" value="0"/>
+<int name="reqINT" value="100"/>
+<int name="reqLUK" value="35"/>
+<int name="incPDD" value="18"/>
+<int name="incMDD" value="14"/>
+<int name="incINT" value="1"/>
+<int name="incMMP" value="5"/>
+<int name="tuc" value="7"/>
+<int name="price" value="40000"/>
+<int name="cash" value="0"/>
+</imgdir>
+<imgdir name="walk1">
+<imgdir name="0">
+<canvas name="pants" width="26" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAASCAYAAABFGc6jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVEhLndUNkYMwFATgWDgLtYCFWjgLWKgWLNTCWYiFWsDC62zCvm4eCXNNZnYgQPORH9KUPsUm83Ux25JZTvb7czOz5XOe63Xcf601qM9DaEyA531tEGZ//tnrsZXjDFaQ2huUCqJh7+G+1+Q8jZWH0fC23D0AEJxHaBar0PH2GLK8PspRUccC9A1WBotvD4Qh1kAok9gQUqzMWRi+iKF+hflCGEHIqFdxvgQ7gV2Ic8Vz/6Zir2QlMryn2HGxvgEgXQxxYTiG0sF6ILFLqFf3XoXhi98ZI1CyW6pRTJe31odDiISettB2hjScuy4UhzBg7RwJRAzhzoDwBfRas1tE7LimUMGwIwNBAxHUlI3VlvK815GA8b4iLKdedDB/LtYJ8m9khGjpNf6fcvm7N1fMZqJ9n5vVAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="7"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-7"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="27" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAASCAYAAACq26WdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVEhLrdSBEYMgDAVQVugKXcEVXKEruIKzsIIrdAVWcAVXSC9g0k8Aq8Xc5a4WzDOIOJcHdeTlIKKBKDh6PZ6UAq6DS+kdrVNKvv4f42IMEEVgGaeYCAm2LW9aZ9+Hpa4YTF0Jot1tG1EIN2A0xKJ+GDX5WjI+AGMcHWAG8dKFadZlFFSxzu4UEwjzbjC+D+wKIcE4W0t5FtSNYaEalnUXQgtsotqVhRA76s6C/LuGnurKdlh0B+8PUbu0PyEcQ1C/uQaIsIDFpkBECtfG7Ueuy2pQPNK0mE3cEHZOtllaoPznAcObbXIxedG1sexkiUfbDgoKUMQk9RDez0FJHnvCvAL5FiwOa4Rs6E08ESFOxCtZ1DiCbOBkW+ByMY4PJdRCcWhBB50AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-7"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="26" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAASCAYAAABFGc6jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEaSURBVEhLpdWBEYMgDABAVugKruAKrtAVXMFZWMEVugIruIIrpBdCMAkUlOYuZ0WbJwWtc1fAYD4OAO8AgoP3awKA+focaByvHyslno9DWEwA+7IqhPPcP3BsPh5HsIhQNxgEYuHcIcZ5AoQwjMWbuZNaWmgUIyjN3s9LkRmrQE+wOFmJ4PpwKuhHV3cxBUlEYrRZNGQxPG9heSMwhMewbre6suslsAJUUA3JUK0rsRM5+ZrE0iDNoAf1sBrIWAFh8S6EhTHEzxfHKt0JyMHkKPHcQk3MrJXtVENeQ4+7amB6jQRkMfkqii/T9FDzBspdWSyNSShiWASPPON0w8/MGL9sDcb1JMJRFLM3iJDXFch/I53v/xXNSX4BE0lTpNYfNn4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="7"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-7"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="26" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAASCAYAAABFGc6jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEhSURBVEhLrdWBEYIwDAXQruAKrsAKruAKrMAsrOAKrtAVXIEV4v3Qnya1coDmLlfgNM8EqCnFkJN5OARxv1x1lZzW45xqzkle45o4/wEaDHjcxrV4uQZElkWWx1Ne06znZyDXzVCLsyu9JgpJzoYhj2I2CnQyD7eQ/4K0EH45oTxOmkQVAvIjZiPCMQpj3QMdxRQh5LsiZPcJSIFaDOsWZt1sjc4e86YrjzG/YWFsLeIfjIARasaIxDkn84GhIO/LLghROuJxizmwQt+66ULsxI2v11nTXcV6kH+XON6AleIGdrAuRKyF/MNi0A6stx+GcfW6wcoxBywUjvesRRi1EDbQkh4JnfEzHUx3952brqFMIh7zIP8+kO57p+ID38gQb2MtRaGqrMkNAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk2">
+<imgdir name="0">
+<uol name="pants" value="../../walk1/0/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../walk1/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../../walk1/2/pants"/>
+</imgdir>
+<imgdir name="3">
+<uol name="pants" value="../../walk1/3/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="stand1">
+<imgdir name="0">
+<canvas name="pants" width="25" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAYAAABlcqYFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEfSURBVEhLrZULEYMwDIZrYRZmAQtYmAUsoKUWsDALtYCFWsjuT0haSsejkLtcHxz5mj80OLc2avRLRhQcfV5vHok6mVMna7h3NA/iWLdBloAIPvXDBgCP05fm0bM3Qmg5PSwBeR6jeAgGaoSIRMgCI9x3/WMQfhknByAMo7nJppAYmyUzqWoQkwx2IxsOUgIUsifZWZBItQOpSYZ3LkLSZ1tCzkiG8QjEEEiSBy0h/yQ7W5vNV6USlSCDXMxG6uETRAE4eQ4zyXD7L2bDgLerQ7RO+TNpMyFllIEwr4EMkp9cAXrjdd+yQR9TEF/ifRB3VEAUlDdFfbbaXzrxCoQSZZCyPrrQjXx96AYs6lMD3TEOlDKTX4H6UxC1TZYK+AFpuxibU6CNNAAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-7"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="25" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAYAAABlcqYFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEkSURBVEhLrZUBEYMwDEVrYRZmAQtYmAUsoKUWsDALtYAFLGT3kyaEFtgoy10O2qP/XX+bEEId1JiXgigFIuro9XjyE2N+xzwyBpoHSby3QaJAEBCf+sFgnMtClBIt05vmMTZCsriAVnGZo9sQESCi2PWWENdkaAG5CsqQjsVhk0/MGSSDbkPSMFoeQVos44UQgmgJ4QugB49ogNhieO8BHrSBNFhmVp1BrF4aLTOr/Hl42ypIYRmeZyD+gCEpVMI6tsNHsTrIr7vJECk4L6rCOmcQiO9YdrQbAfDHAvE1osWo4yPLvu1mtSqukLLiS7C0mno3miVIILmbbtqH67gK0nnuwAriC7Negj2QDpqSz0fPyNm2B7oTBtP/iwf9C6JR7VIBH2L7IhrSIoA0AAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-6"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="25" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAYAAABlcqYFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVEhLpZUBFYQwCIZX4SpcBStY4SpYwSyrYIWrsApWsAL3AEEm2+km7/F0uPH5g5sheINObzKAGABSgM/rDWzDMU78fJ3Y8b4PgklN4jiMsIyTxsi3DbblC+sceyGQqzhBn0JosUBQATreWyeggeC1BbRDBkqGJTq7hUBKBGlV4yBpmtVxjMq4fNBdMoVgMgu4gtwtGU3kMoQiREC2+a0lK0KkF06NgbSooQUCkcRVCG5YNFxzUw1NEIBtuv2yHATnN6hxEAuQHW9j574IqAbRN6DJMT9KJKEdqxo6YqTEB6QEYhX72wiktOMFZGNatr0/tbI5FbqrzYlbi/OJnaupfQQS6HIFXah5atn/5Z+ap+YUCuAHLfYW8iQJz5AAAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-7"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand2">
+<imgdir name="0">
+<uol name="pants" value="../../stand1/0/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../stand1/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../../stand1/2/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="alert">
+<imgdir name="0">
+<canvas name="pants" width="29" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAATCAYAAABsmQZ/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEuSURBVEhLtZQLEcMgDIaxMAu1UAu1MAu1UC1YqIVZwEIt1EJ2ISQNgT7Gsdz9V0pLPv7wcK5/gO34ZyCM1Rw6ya222QH4DlAIDgBGeL8GoOD2SMLv/gBui+8HxSfC1mnOgUn7+olAFLZbwQAhRG/apZ5AbO87KQQBt0IpUSqlH6cobLPwnSYBBbSlxAUQS1qTddta4iowzEsh7L9y+xs0ruN4CWSobKrKuj4FFy4tyCorcaNbchncqUt2p99jifHYxAmDQJ+C5SjUoAzUGytzy2DlFsXtGphc+hyqEzNQHxndT5dEEOgTMJVjpntT1imVWsPSQOm316CATalrYElmxQkZOCTZ/+T/C8csDT4LSchA49pGNll2rOEn46pRuLoZHL8fZacK3IzpFtVJfgHmZiY49B9L6QAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="27" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAUCAYAAAB8gkaAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVEhLtZULEcMwCIZjYRZmoRZqYRZqoVpioRZmIRZmoRbYQYCSlPWVjjtuHQl8/VnCQrjXoA78yxB0GSbJhxxiIwwLAHTwejwhGz8nXosBPgP7GBthWBQtBYJM/UBAiqsnmKf3DTBV1RUQVTfPBewqMBeCDmLXqyMEHZ8JzrAWdQwCbV3tCkNrUJeTWZUUT8OoLjEPdkZdbgklB3p7C6lh+ls6rTwC3ARZha3qaJOcNA/ktVNP5El1CqpV1YfDxumgyF08qC6risvF9WBY2AOeVadzTZRJQQuya9ZV3Q8gflogzTaByaSQQvZCc5LGZKJgfp6jONoWmNdO+0ULShGZGhh7stt9RQ4CK3XiFuhZUQghFlxvZtN/AgEKdCOnsJWCnURa19am3f232OrFvvwvGYk80+mvAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="28" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAASCAYAAABIB77kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE1SURBVEhLrZQLEYMwDIZrYRawUAtYmAUsoAULWJiFWsACFrLLcyG0jMFyl4OW9v/400dKxwEX83IAlAQAGZ6PDjjkHfsxJ85l4OdtIIMyieP73A+bNkHXFaAUWOfXLaC5mXJv7jyM+/MGuIzTZSgh1JUmtrXPgBgCvQnMJFqGsZo14FWXLACZnESQpq3nTaDBsHQREoG2qXCOK+svG8iAsZy6jr7dKis+zwBpIEVJO/EmUI9GAJ5xKZN429fc1aCb8+ig34DsToCtcmJ/BJrLSlmPoBt3UVSF/bnU7wTEK8451KVpAXfuvKjCFKi3jC8xlTVCndsIlb8KV5ZsHA+TiZ/jIBe4Xt4K1JKqSw81kVqiIIohENudwOI4G49QWUuCHrhsxU7UZS3YbUnxPLbG/yWaP/YGY4M6RglqP60AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-7"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingO1">
+<imgdir name="0">
+<canvas name="pants" width="32" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAARCAYAAAC8XK78AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVEhLvZQBEYMwDEWxMAtYmIVZmAUsoAULszALtTALWMjuh6b8paG7G4N/948D2r7fNNB1+yTZp0vBMpUAp4QosNeQPU4yP55qfu8n7lFZVOQqkpZdA8y2EBthIjf1CVUBnipQK4R/z+O+BVl3C8/z4pSKPYhhrTE+VBRCputN7pd+DQE45EK0ILAfa32DI1SnugryuA2ShlGvS4gMtmtQjVag0qxD1QPbcDPuUQ2tRBRiywiDRnXQvut0U7CHawAPN5fjMAAHAcw/p3+DAQkaw3n3DLcqVD3BQD6GDMd4Kz3mwxHYtBnAJlsIDeK/Diq7wd0fsgmHFOBDMJwDVEFyV3PJvwEjraXGorncHkqLF0dBfwkAVYtbN3s4Otq62s8h/0W6WLCrQ2AtHQZ5A4e1F8+272xwAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="27" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAUCAYAAAB8gkaAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEeSURBVEhLtdWBDYIwEAVQVnAFV2AFVnCFrsAsrMAKrtAVWKEr1Ny1V36vLRXBS36UkNzza4nDcH58zF+HEb8k7HYwLSZkM4Pf5oXj1vct4A740XsbIFouUAU8hQJAM0bIcmgpRoMK7eIRiBC1cS4EMA3Xmn6DBwAhmogJoq/PpABfj2cfg8Y1VLflfTZv55dx4nA7XAqLOUf3FE4HiwpQMmydDIfbCajaZZjca6UBMWbNzCGwwATEVwyOc/w8NiECBCraaUze11CAaqeQMWxFKX47aSgAXgNMUAuRqWKpHT5zAsk4lw4CQIdTxSTpcZAsZXpt9HRBCV3D8lOITHZIENLYL8trkx8OGx70RqvLo7+a/T/MBPguqDX6A1yaD3k7iMQmr5VSAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-7" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNYRRKIRRKYRRCoVhCoRRGwRRKIRTUk23J37LsJNuqu39tnFh6+lZzDeGzQXbhIPh5Tx+PVIi2U4X1PsWYtD9/kl6PLWmy98+hoK81aEEBcJzrIBEU9/8nNBTPsOkzRi1ogTx5kNIM6wpw54qF/P66EdFSQAPRvmcVUIHG9UaybsXNiwG0nIauIAVKAcv1876m72ldgDkAWh2zUDb2PY/TGugWqo5gwUEomKJCswQW19I1QpUch86W2RdIyTeCbSD7I8wJtuUOdlSX5Z7eR5c1h3EbtbWOAqgP20HqkWUogbESF+yauozQLnj/+pu5yqEO6pyCewLDR39FzZwLeOd4PXbUzFmOtFEG23OMAeL6uKQOXAwB2ToIzdcj6KYzm+Q3sB64BzSScdqNZn4QdgRsR2Aku2+Ww0Lz5wxaooPG962VLSKN26Zn8F6+K8AcWhglv2h+V+LxIqiXA5uyDet8y/8PyH0WdhZdEw6oF/bZs+riDbLPsKoX9UB1AAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingO2">
+<imgdir name="0">
+<canvas name="pants" width="30" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAASCAYAAABM8m7ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE5SURBVEhLrZUBEYMwDEVrYRZmoRZmYRawMC21MAuzUAuzgIXsEvjZb9pxHKN3/yi09OWnKaT0u8lB/d1EapL75SoiueubSpL3tEj7Z4BFam2Az9vUQlXzLPPzJe9HMZ0DFlkdasut6xVqqvU0+LKgZCn5Zk71qkDIgrA5chrYoUhvnR4uBOHggeOj8MYtQwFW+RYQXIFHnXv6dOEI/ema0s3u9boXvul2L5grfQ+82dsIi/qmu99r7kMrfBjAEm1Nm24714NjBdcRPgrAoeoiglFQowr3M41CY9cBzn3AGzADGDoC43xHuLumew7AwfagbIPxMYljDbysqWd4CKhJNYMBiFAAdD4C4DEPQOGq6Nyqvy8yBwO+pC/bcywKAc5QzOe/1eDP1VU2D3TCIoDueWegQ+3vBWL7ANSdwr0PdhX0AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="34" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVEhLxZUNEYMwDIVnYRZmAQuzMAtYmBYsYGEWsDALWOguSV9J0tD9wZa7d9Ar7fuatPRw2CZS1l8C5ikNol/BFGM2n8T83mddh91AKuOhOwsAaZ5F05Tm8cYge8Gw4eV4Sil1FqIBsjUMGxCAhjHvAGnDfAUlk6cum1IsEJwZgFBkkAiG2qRPoIoBTMdzz0/dLllZAQHAC1AhmMkEGU79tRLAovKQYAqwCCoA8xCSCW8eqcqK2yuA8UCRNEweJEfUm0ZqZQUG3HZ9kQBSBhOILwm1tVZhgv1SwejvlAwITkUL4ilMkBmz+gDIlAXZ8GXR5tQHeSDeL/jJBZnxpViA7cmRjwcpi1+xhiBDEo6ehjQwr2Rn5ZLkDv0H1RnwEPq9lCZfgAxDt3EAhAVjIR6CQneycLXT5DDW2XgmjDc3dL8O0Ipq8jcn8eOa4x8GYEY3nw0eHQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="33" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACEAAAASCAYAAADVCrdsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVEhLvZUBscIwEERj4VvAQi1g4VuohWqpBSx8C7GAhVoIs5fcsXcJdBj6ezM7LUm4fWzSktKxVeLA2QUA1eklxvc5lbKeB8G/WIwBcF9W09EgzlBMy1R+fy6l5AqAz9vtT6QQuD8SxIzUeJ2uFaBM9Zqz6L9AnubNEPe36+zHt82B8LZ8A+Jih6n8ehg24bONAaKBcBp8pe3crWqOhgSQ58Wk5hDmLA0UgcCc7xVuD4Ya1djZfCSX0CAN3SIeU6gRTAcQE3ild2kICJ2XNzANQhev9fRHMzVU8XiXBoFITxqLMAxiAJeUOpMIEIV5e2/IefKJmHmA1HmDkMUNQg/dCABzMNQ1LAcySkSlkO3qtgSvXjR6ZaJPha6B6IDZ3PNN2szCVnAy3eFk2WFrDSOArkNyUASCBASKqWAs90/HqFxDTimaD5JxPRRG/uRm1/fjil92kIN5rr359ABj0qF4x+qeMgAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingO3">
+<imgdir name="0">
+<canvas name="pants" width="36" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAQCAYAAAB+690jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVEhLxZRrcQQhEISxEAuxsBbOQixg4bRg4SzEAhbOwlqY1DAM2zSwtz8uyVR1Le/+mAVCeE8IN/xXKIhIsi93/kW4cQN5xiDPeyqCvrdHZ+z6+vgUycGUgsi+i+Qs++O7QWn5N8DMVDaD0MhBHrd4tGm/AgEUglHGrmgZA4iWHUbrabtZWWE0KhSCMRxmcKYVVDXZimkzdlU4bTfgOdQMjsVjVQzVFveMqNzcpXXv66AcrGR1NBvkc0AIdCxUs6OGOd6XQuCWQTSgDE1BPMr4/izVAXZ2XsEwWPcLyy08/3UDHL1jkObjALPpTDymgfnTQHAIVd6vOH9UYZLdIDREAD/ofp5mUDyue7f8IY3nV77Lji82A0EYX4yzxfPwQtDcZRhQMiCtt4NKO8MFsYwQDMQbuQKk0QG90mLHHQBvin7VpUDTVQxwNJ7bZzqNHxmpw1aPep/VAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-2"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="24" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEmSURBVEhLrZUNEYMwDIVrYRZmAQtYmAUsoAULWJiFWpiFWsguoQmvabvBwbvLMf7elxcKC+G4yB+4S2xMtGxbf/KKxPAz5ZqX2wDWsRpjXYGYMdFAFCOl9V0B+NhZiNywjpMYvx7PDZBSBdHfZyFEMZjxMowkYkCGKACB5yFEAtkAOYFL4fcBcggkY4rTXI4pJTHiYnOFKEgLQF2gmHMVKVhgZhBIg8+pNz7r3gAx7AAw0+4N4hIhCCFmziAGyJgU4kwMgiBcGLkUUHSvgF6KQ6B8fRfQTdGANJ/NrwTVmPjN9iPAzh1IYcX82cynUEAB8dUB+RVkEAVh9/zB4/PNJA1Yy1y1r3+e+/791xsMWJkzPPZfMBSati62NPo/0WjkFv1rxPQFuIJXsXobzNIAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-8" y="-1"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="32" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAARCAYAAAC8XK78AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEwSURBVEhLvZQBEYMwDEWxMAtYmIVZmAUsoAULszALtTALWMjuh6b8paG7G4N/948D2r7fNNB1+yTZp0vBMpUAp4QosNeQPU4yP55qfu8n7lFZVOQqkpZdA8y2EBthIjf1CVUBnipQK4R/z+O+BVl3C8/z4pSKPYhhrTE+VBRCputN7pd+DQE45EK0ILAfa32DI1SnugryuA2ShlGvS4gMtmtQjVag0qxD1QPbcDPuUQ2tRBRiywiDRnXQvut0U7CHawAPN5fjMAAHAcw/p3+DAQkaw3n3DLcqVD3BQD6GDMd4Kz3mwxHYtBnAJlsIDeK/Diq7wd0fsgmHFOBDMJwDVEFyV3PJvwEjraXGorncHkqLF0dBfwkAVYtbN3s4Otq62s8h/0W6WLCrQ2AtHQZ5A4e1F8+272xwAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingOF">
+<imgdir name="0">
+<canvas name="pants" width="36" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAQCAYAAAB+690jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFISURBVEhLxdWBjYMwDAXQrHAr3ApZoSvcCqzQWVihK3QFVugKrOCT7fzk4+SglY7WklWCIH4Ek6b0npCSHw0g5DF9DlQRMie5XSbDIM9E1cIbxJLk5+vbfhVkx/R7FsgLShaP7GOcKyggGLTe7qegbOLHdbZsGPHCDCyYOV/qyv03SmRZbFKkjj29ZzQVELOuWLn/FVTXG61HfDIg7HhdDaNFFbNMV0vgGFj7a4sawlpRLYDUoHHFGKKszB+gCOtQZY4RrF3AwTAuzucOME+hehiBYkGGMJL6BkX4FY1wEYSe0v0J825Xyb6OAIgrRU/j1+SKQTHGHYE0rbY1e99PZW/JPYJXBWPJ9ZPW5D4cofZAsYc4XIy9JEI0yh4zwGzmia9Rx9ib9DUR5qlwGO2+DAFm78mA0rQ+aX8dR/ftRpwg5lG8en36BT0JS98gIfG+AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="9" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="36" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAVCAYAAAAuJkyQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF9SURBVEhLzZWNcYMwDIVZoSt0BVbICl0hK3QWr5AVugIrZAVWUE+2n3gWcqCU5PLudOAfpE8SmGE4Jqn2FhJJg8hkUN5ephxQ5llkmkRklCK9jhkwgHyKCohCKAybzlWbbz8GlSuYzgeLQXiM+wqkdv9OBS4Ncr8WOwNqCabyIBtAGOu9AlG1DmldBQ8XGUFwG1Gxo0BtcIbpGVUQVYqACGo3WB8mqoxfC4B6VSOwh3BLEA/DQASwGtvX1vqJ5gK4DozKA3kYdtwDegTVByMgny0eZAcueDNX55u2uedtrZ70OLP8l1g2AAjZYEynsHceBW3W/HoN/vXx2Zhv2xJMHdRTVufyOVLN9uU1yhbgUSWsiiUpDZ7GS2MERO1CJTQDgoBjeiA74DKvqkBQ2AMQa1Ua5Ha5GlAIBQNUD8Zn6H+uqDB+GUFbljjUPg8E2WYYA21lGbwX5pNiQAbcWW/E2URzBs7vQgCzR3/Zu6lc9n8Cna5d78KrFbX4kH4BIj352DsQZk4AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="9" y="-4"/>
+</imgdir>
+<string name="z" value="backPantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="29" height="25" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAZCAYAAADNAiUZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVEhLvdaBEcIgDADAruAKrsAKruAKXaGzsIIruEJXcAVWiJdAaEiTivYwdzm9FvkSKDhN3wWI/EsAxAnS4wmwrn+B4TVnkHMkTB0jiAjnKJg6w3JSIpbSMDRja0kJcg6AASDA/XLNqMQUivla4mk0YxShRTEc9AwMMdwoESYcS+ugXFb8ZPQXGB63uUHrQjpAm+/lHq8LDeggUKJhumzzyqFRUeoG7sRhnZeKIsg4za1GU9qNDkssR9+Df0YFuEMV3IvvUFlqghXqlZSvu3jc4B3YoNb7aqEK59epwQVKsETlyJsFZXReYX1ftOGR4x6u55dQBLtQD7balbRQgjX6qcxmqWXwNVVaGT4qd6gj2MN7Ub1LmTtUgWnO5MKpcN7HPRCjLiQ9r5j5MC9pjJhhaocPCIExF+RwV7DooGwc5TTiszfmfxmyne7ci1raBt2eurY7yJ+CfnwADo3TT2/FGzso/fZ8EQL8AAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="0"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="37" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAAQCAYAAACRKbYdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEjSURBVEhLzdUBDcIwEAXQWsACFmphFrAwC2ipBSxgYRawMAtH7trbPre7sRISuOSHhK7XR9uFlL5b1PI3RVQS0fQfMEE8xpZrofl2/xlMFpbdKRVE0yQgA/sKDpuFIcpyVBKGzXNNgwW4bmRdjBvbBUui2zBKSh42uZzO9VmFBTj+juMgXeyKAQBnGq+b4LhCXVjDeVEwBmFtcpLmEWQviKuV2ydtkQG07uS6Yy+gT1A+jmG5ncAOEJEFUAjqjYUpTu/bgtOjtdVg/Pa+HN8RFF5svJzRDtt5cucQCC+RBS2oCIYYbszP53Ra4uEUGPXAeCAteQAn23igIzivD+bd35IM2m3VyXugCGfTC8JaGu+FAXYRDeLsGP7Io6Ce2kA7E9YTO9N2TqQuAnIAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="0"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingT1">
+<imgdir name="0">
+<canvas name="pants" width="27" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAUCAYAAAB8gkaAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVEhLtZUNEYMwDIVrYRZmAQuzMAtYQAsWZmEWYmEWsJBd0r6ShrCfsuXuHb32yNcXQptSHNyprmCeEzMlvp7OzDysY8rzsv4Ys2R8DCYJDeR2GUPQY5pVvTDmZTGuJDJUIHC63O7MRPo8BiPShJIYmoeLai0rlU2RwgTaA2xgUj6owrScK6zXXU7gQDROMfDXMAFZbWCdpawvSkhCD4LD+t10Y3wA9sIVYOJOw8BQyk+B2VVpeQ+w367pyo5SNv+WdWW78V0pBQS9AoaubAd6mJYSTYKSFiCeEbAB2cQW5uf3uhIwUQybEw/p1MA8KNrIxl2BWLAHaiKBYQyABUF+I5E773QDhPTFcvDi+pCEWIcbnPr1PbmSvgAiagKnvfU6r0C9B/PBUIEH77u9WF2aO+8fIBuh+yfqVWH81oGXsgAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-6"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="34" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVEhLxZUNEYMwDIVnYRZmAQuzMAtYmBYsYGEWsDALWOguSV9J0tD9wZa7d9Ar7fuatPRw2CZS1l8C5ikNol/BFGM2n8T83mddh91AKuOhOwsAaZ5F05Tm8cYge8Gw4eV4Sil1FqIBsjUMGxCAhjHvAGnDfAUlk6cum1IsEJwZgFBkkAiG2qRPoIoBTMdzz0/dLllZAQHAC1AhmMkEGU79tRLAovKQYAqwCCoA8xCSCW8eqcqK2yuA8UCRNEweJEfUm0ZqZQUG3HZ9kQBSBhOILwm1tVZhgv1SwejvlAwITkUL4ilMkBmz+gDIlAXZ8GXR5tQHeSDeL/jJBZnxpViA7cmRjwcpi1+xhiBDEo6ehjQwr2Rn5ZLkDv0H1RnwEPq9lCZfgAxDt3EAhAVjIR6CQneycLXT5DDW2XgmjDc3dL8O0Ipq8jcn8eOa4x8GYEY3nw0eHQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingT2">
+<imgdir name="0">
+<canvas name="pants" width="35" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAASCAYAAADR/2dRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFaSURBVEhLxZUBccMwFENNoRRGIRRKYRRCYVhCoRRKwRRGIRTck219y39bzs62Vne6JnYSv+p/JyGcV6p+qTJEiiGltBDoqVC2KCDeL28ZhL8Y+w8ofWgDgPbdQLblWsbq+e26lqS2L/eeUlkUC1I4puu/BwQWhgtQGTdvzZ/rObCUYmwgOYFY7CDi+mFWKKSTS1aBAEJLWkNqILUpjyC8u6RwP9OMMe23e/Y8TAxpCRfzCIgCHcHMA9VmhHHuYZiAN+eth1y5AcLfKSA1Hq4N663zhLWt7tLR49mGhmwLfwfEcRgl5XgH4zeDHDuoIbgOyJslVRiO/5iOwklPje64fFF+d8SyVQnB3mLDa2K2zX3v8NxByTtpSBYn3yMexidmQH5xLaHNzcGoDAwQLBWPvQ0IkjQ6qPbB/ZXyQ7gwgLSsTNE+G648vO4vQFSW1pEzkEDK3EvkATs9ADbAbd+hqM8EAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="8" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="32" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAARCAYAAAC8XK78AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFGSURBVEhLtZUBscMgEERjoRa+hViohW8hFr6WWKiFWsBCLcTCdZbjyLKh6bTJZ2YnQOD2cQEyDMeLiU4rGrirx+Sy+R8ALA1mNtrv5Sc/0b5dJ++fV/Plds86EyAbuLFlQ9TZPL9DfVnMUjoVIgdE8Hm8utHsmWDzBoAg8DwC4cFK2rHingBW4SQLDv8dhKebzNP011WAvMxCqX8KUVeP1ampKjLhG9W2WWgh3sJ8vPomC9gfmgWCkM/ShWlWrwBq2gWILIhp7evDtOYIxgBqBuE95nB7kwUy443ZAKU1EwXAGgBV7PwAiHHNidiBCFUQujlL53q+GYKNw3wcLhWCtTkVOyC4QXcBVOgP8xDaPD7mZwg+HQLB5gXAbzrU84+Fbj20IzADoB0QARJxYl4FCeFGffHT4s4aVMXmKh37Rl8XDXQ46BNmEoXpYpYXvwAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingT3">
+<imgdir name="0">
+<canvas name="pants" width="34" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVEhLxZUNEYMwDIVnYRZmAQuzMAtYmBYsYGEWsDALWOguSV9J0tD9wZa7d9Ar7fuatPRw2CZS1l8C5ikNol/BFGM2n8T83mddh91AKuOhOwsAaZ5F05Tm8cYge8Gw4eV4Sil1FqIBsjUMGxCAhjHvAGnDfAUlk6cum1IsEJwZgFBkkAiG2qRPoIoBTMdzz0/dLllZAQHAC1AhmMkEGU79tRLAovKQYAqwCCoA8xCSCW8eqcqK2yuA8UCRNEweJEfUm0ZqZQUG3HZ9kQBSBhOILwm1tVZhgv1SwejvlAwITkUL4ilMkBmz+gDIlAXZ8GXR5tQHeSDeL/jJBZnxpViA7cmRjwcpi1+xhiBDEo6ehjQwr2Rn5ZLkDv0H1RnwEPq9lCZfgAxDt3EAhAVjIR6CQneycLXT5DDW2XgmjDc3dL8O0Ipq8jcn8eOa4x8GYEY3nw0eHQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="33" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACEAAAARCAYAAABTnsXCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFaSURBVEhLxZQBbcQwDEVD4SiMQigchVEohcMSCkdhFELhKJSCJ7v53o/rtbeTtln6qtU4+S9Om1JeCxn6t5DHUkS6g/wpkJkpgGq9f5get2b6bSBbWHcujdT7DkRzfR+AXobyBUSqAbxf3sxcn5YrVO87GOQ8lkAdgn0ZD5mh5q1Iq1e5XxeT5gayrm4IU+6KjVMNII9AfNdmojGOAQB9uZkcRAGDUTScYKg2AxmT5x3DWJ/oFIOoJpAEiI9n7s58NNugyG7HDFDLxRRBvCMaESbpkIO1FKKeAgCCOzSDjK58B0RQ+qsDwifptxDPHQYMonUA4RqVf8h8RABisF0XrKBOR5EtDhDkqEcN16Yw1oXptvXwwfhBZgtnIFGo3cHMV/0U/lfg14yyhdp2XUeIOCcCMHxmjtgg6DaEKVpH55fqaF6AOIxTI66lnN+l4g7GSVk8XfjDOF33E8rvf4nZg8sqAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingTF">
+<imgdir name="0">
+<canvas name="pants" width="32" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAUCAYAAADskT9PAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEmSURBVEhLtZYNEYMwDIVrAQuzgJZZmIVpwcIszAIWsICF7FJI95ompYwud+9W0p/vtb0RQjgXdEFdgmgORDTm4pxo2rQ8NnG7lwGidaUU3GbNc6b19U5anlPM/ccAhmFGDPBvDwNfiJjAZ5Rh4uoplJCaGXUlV0/BB3l5ge/tX08hDi5glsSA2rk20HoKJVjvUCQQnUMDysTRKRyDMecYYJg2gHnPQA6x4ArUbKDBxPYGq8FVLoNg34EBz8T+Sq3Aa5Ba32kTepIDjwvgGAD45lSNcK/Cug7DvTcm9UvR2tfk9ccwJHlFavsbZlUuh+cGYBxUQX6+D7cohsm6kmNZcIw0ySqzAsZxGoBwAKKaQ0+sLaL7m3fcM9KHSO8PktYoTkEPwPgALb8B347qvsMAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="8" y="-4"/>
+</imgdir>
+<string name="z" value="backPantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="35" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAVCAYAAADM+lfpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGMSURBVEhLxZaBccMgEARpwS2kBVpwC2nBLaQWteAW0gItpAW18JkHDh3PCzkjx/6ZG8sy8OvjkB3CYyWkt5ZICiISReudYCLrWpRSAVKwpejVYBtISrLev+t1datCvQKsc0VBNpgqBUlBPi8f8nMLWf8B44KwtLFCAEhf9R659JTqc9JtTxFAPCmYjn8GUD4xuciVfI17SwFZ4jVL51gYzDsL1IE0h5pTpfH9emtygfLWdUB/BhubsyMEkm5fTUdAnDkDNoXcGjPIBGbmDoByqOE0n0r0cAI/OuK4ok0BM9sq5Eml73HKXKj6iGCg3hXkBfckdjAWRD8DDIMwUHZKw809KhQ/n4wL9Qg3dwrIXqMZDGB5jAfEztRgGBhyJYbL9s3o9wnPGwTRuscBnwNZGAZxYNDQk36OMYDxTpyq9IsEs5cXhqHB3AyTqFyYPaDOHYnDmsMetpQbmDNAFobUL9T20MKMfw2GybW6MZwd+zwimN1qoUQwT/4daEBe6B9Z1zpwOOGg7FqH6/4CvHp5v00D6ysAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="8" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="36" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAARCAYAAAC1tw6GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFMSURBVEhLxdWNcYMwDAVgr9AVugIrZIWuwAqdxStkhazACl2BFdST4SmPZyWBO5rqTsePwf4QxpRyTpjkv0QAfsZiVovZ9F7QpgoNUBfMfL1F/jUoAF8fn60Cnthv21aZ6W2oqAQAAavF6nAhaIo6FdYGiUrYEBVyjJ8LkLfNc4fy47NgMYADfGDN62WMVBTDcCxz8FCkmGn8jnQEtp7e3sLvI5TvK+wojjpdMAoBQKu0oNYqMWqF7cB1ce/MhhTDrwwdMWwP6gUsx/icwGvJKuPX44tLUT7xCbUZnGDAtfN1W6kVY/H18OvIqgPQUxRgySRXnC+wAHXVURBjMhCjONvXR0uFLgmBkl9OPAUatGMk/lmPQHgYBnHy7waLrWJSUNYRlbRrV9SeRF+KQXTl85vaE9igNz4dWNvRBx6K58qrULVCNPSaI/kwfgHk4K19oXYLzgAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-1"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingP1">
+<imgdir name="0">
+<canvas name="pants" width="27" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAUCAYAAAB8gkaAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE6SURBVEhLtZUNEYMwDIVrYRZmAQuzMAtYQAsWZmEWYmEWsJBd0r6ShrCfsuXuHb32yNcXQptSHNyprmCeEzMlvp7OzDysY8rzsv4Ys2R8DCYJDeR2GUPQY5pVvTDmZTGuJDJUIHC63O7MRPo8BiPShJIYmoeLai0rlU2RwgTaA2xgUj6owrScK6zXXU7gQDROMfDXMAFZbWCdpawvSkhCD4LD+t10Y3wA9sIVYOJOw8BQyk+B2VVpeQ+w367pyo5SNv+WdWW78V0pBQS9AoaubAd6mJYSTYKSFiCeEbAB2cQW5uf3uhIwUQybEw/p1MA8KNrIxl2BWLAHaiKBYQyABUF+I5E773QDhPTFcvDi+pCEWIcbnPr1PbmSvgAiagKnvfU6r0C9B/PBUIEH77u9WF2aO+8fIBuh+yfqVWH81oGXsgAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="34" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVEhLxZUNEYMwDIVnYRZmAQuzMAtYmBYsYGEWsDALWOguSV9J0tD9wZa7d9Ar7fuatPRw2CZS1l8C5ikNol/BFGM2n8T83mddh91AKuOhOwsAaZ5F05Tm8cYge8Gw4eV4Sil1FqIBsjUMGxCAhjHvAGnDfAUlk6cum1IsEJwZgFBkkAiG2qRPoIoBTMdzz0/dLllZAQHAC1AhmMkEGU79tRLAovKQYAqwCCoA8xCSCW8eqcqK2yuA8UCRNEweJEfUm0ZqZQUG3HZ9kQBSBhOILwm1tVZhgv1SwejvlAwITkUL4ilMkBmz+gDIlAXZ8GXR5tQHeSDeL/jJBZnxpViA7cmRjwcpi1+xhiBDEo6ehjQwr2Rn5ZLkDv0H1RnwEPq9lCZfgAxDt3EAhAVjIR6CQneycLXT5DDW2XgmjDc3dL8O0Ipq8jcn8eOa4x8GYEY3nw0eHQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingP2">
+<imgdir name="0">
+<canvas name="pants" width="30" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAASCAYAAABM8m7ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE8SURBVEhLrZUBjcMwDEVD4SiMQimMwlEohWEphVE4CqEwCqXgk53Y/bWdTVtmyWqWdn7/O1FSynyQy+nwBdN8rIVoa/k1MNVCvz8XIlqOcT1ADOXc73/0uG1fBANwW64NqsnwWiUVzM9ZuBRubjmaAJsTeCXa9wCfB4PT+3WVsTkXITl4xnUvWARS15slCwjgBP45uLtlEIIVbu124Bl4K0QkxRGmIgw8cJ3AXwqAAuXkFsHBNQeC+zhZ86EAg2ZudZMF1+r4BZx/ZwJ6ixfbuRnYCwquFe6EMFiTv1f4qcW4qRCq4KHrrOWJADxag1ssjlDNAMcdjnDsRJ/nI/YAdxVaWGEeqmuk4vSdgX3LnQCE2hpjtnVb7CJIbp4gqh2jAwFv3F4nIYM/yLxA4aYyAXCLPakxFV5gliH+ASkug2NtT/pEAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="34" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVEhLxZUNEYMwDIVnYRZmAQuzMAtYmBYsYGEWsDALWOguSV9J0tD9wZa7d9Ar7fuatPRw2CZS1l8C5ikNol/BFGM2n8T83mddh91AKuOhOwsAaZ5F05Tm8cYge8Gw4eV4Sil1FqIBsjUMGxCAhjHvAGnDfAUlk6cum1IsEJwZgFBkkAiG2qRPoIoBTMdzz0/dLllZAQHAC1AhmMkEGU79tRLAovKQYAqwCCoA8xCSCW8eqcqK2yuA8UCRNEweJEfUm0ZqZQUG3HZ9kQBSBhOILwm1tVZhgv1SwejvlAwITkUL4ilMkBmz+gDIlAXZ8GXR5tQHeSDeL/jJBZnxpViA7cmRjwcpi1+xhiBDEo6ehjQwr2Rn5ZLkDv0H1RnwEPq9lCZfgAxDt3EAhAVjIR6CQneycLXT5DDW2XgmjDc3dL8O0Ipq8jcn8eOa4x8GYEY3nw0eHQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingPF">
+<imgdir name="0">
+<canvas name="pants" width="41" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAACkAAAAPCAYAAAB5lebdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVEhLzZWBDcIwDASzAiuwQldgBVboCsySFViBFboCK3QFI6fYfL4OTaUK8dJLaWPFZzvQlI6XgP9KDiY5iUy/BcVkTRewnOQ5Lp7vDzfHcoIj5J1RX09nX98vo68NUqapAtRnfhdAR+6WyDx/4GTwtcNmANfYEl+DlWfbg300F9YDXDYRMA+XYgM1QHu/Am3BMjDFY6xeGz2XQRe4ogVGR9pjL0CTqQKA0Bhr0vV7QgzpYJoQAabxtukK1LoVwTbAtWt899eAbzgEZBAEatlBEZa7RD82GyuBrceM944TR7ZYNO7hv0Cxg9dAbAVmOFMFyaAMY+bKeX+PuyEZNDJWbXBDOhVvFfvNdraOvwWpqu4CXuLWvTE4NJ7BBTIYTok+pd2qEqrtkxcBYgHY5W/Q1j0Y8S7AlvCgFQQ5EsdsxbtehP3ZL/xWGJQAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="34" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAAPCAYAAACBdR0qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVEhLvZSBDQIhDEVZwRVc4VZwBVe4FZzlVnAFV2AFV2CFmgIffnugyWls8hN6Hv5H2yOE34eQ/h7N/LkGkfh7ED7dVLIVKYQq3R9fg1iDGERkySbX07nkW5BtuZR1zbNizAAqrI/CSI6UirkqWgBd+zyvdY/Kwajc4T5Gh6jmemoWwzHUDCaD0LMB1BCuVQIQ98v6UQY0t7EeJiULQ88B5eDmEHG9vdUIKleMjdkUIAjKAVN+oJYwiDf05l6thZMKjNRBdEPtO/7wnaG+53vNewyQqw6GuQ311mfFgLThk2UIAIglnIwAgyqaCmGYuSUVTO+dDtKpjPCF4KKaQXgYX8l2OHf3MEQbWE4odnAQzPkz5pZxm7ma0AjiaOzgZvIQPBf/jh2cf+EF31caAB+FnacAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="36" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAbCAYAAAAULC3gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHMSURBVFhHxZeBlYIwEERpwRauBVqwhWvBFqyFFmzhWqAFW6CF3NvALJNho6Cg+948UJPdz2QD2DTHRZq0e2xNnMenfvO81ZFS58mf6n4ZNdz+DgQahnzFKbXp9/QznvdN6tqznxu0yUDu1+4wIIfJIBbTeYZJ7fybQeWx/QeAurHoCNU6CGAUCC7tDVTAmCMQIFgZcgKCS3bcC8phDOB2voRiQAc6wKXCGSvcX66hGEyXDVDvuuRNDGe0OKRgc3+lR1CbwMZk09aOYLiPGLhwSXqJobaAzVeW2kUxhkFChoKiXqrpGdTiHqNLBAdMDFV1SZYuAnzklrsDIIbC57VAVadkF+I7hZonTUAMxWKgtjmFQC9ByRLShPnOW4NhIDtGQBifc+M5x8slUBCgfLnsnAur7CkOGAVSKAY34cHrQNRjVSAUURBLBpi1QBEUXksKl7A68ysO7CwLqSsYjAIoxkAKpUCA8iUsnCqAykmAEhDEAqjmEi5KoUx4W8Cbg9bxgUgiYMVYLmSFa0DqErcB5whq5PAfgwnhOAbi3aYuMZDOl9zV2DKhgGKgwIU1+d4OdyNyhzbFxyIX5r75Jgyi6Dv8A/kWDEJ75SWYf7w+GB72SppUAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="8" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="26" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAAUCAYAAACTQC2+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEdSURBVEhLtdUBEYMwDABALMzCLGABC7NQC2ipBSzMQi3MQi1kl7QJSddCGZC73Bg3+k3KZcNwLiDnbUEA+AEg3IfBx+WcPcTlfTkkVeDimAhhQgiXYGub/FoFLs7Ymar4QTqDlEEWp+sYDfYPlBaGMSUuyFlC+d7R9tEP/ThRvh7PBGooxirE93ogWCZHGdxMn4gJhFGDMA5AAnAyVK2KF9Yb6MR+EAPRWa0Vtc7pEKSRbki1bw8zZ1OFdOsyZiC1gS1MAI0w1KrKtK4CNTENaGQT2qmqidGiPGpc+r7bvuKlwOSxRKCXKWMxnTKlHU+LRlUFhgAPXHy2BpVhYJl7LQyD38rclR6kFgnEVjKaW81/gnytNngqTKWNNPEFb4R0tnu+3hgAAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-2"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabO1">
+<imgdir name="0">
+<canvas name="pants" width="40" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACgAAAARCAYAAACvi+4IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFmSURBVEhLzdWBccIwDAXQrMAKrJAVWIEVsgKzZAVW6ApZgRW8gnqSLff7Ww7XNnDo7l8u4Ngvsmmn6f8llI8rEZlFNr0KY/fylhJJKQML8no69/eKXyd5LDnvANoism3WtQh5vyyW2l1H3lbLK5B1ewymUZhH5rZ7URdTknT/YuSvoHxOYpR3jXDrfKnRe4/fG7ggA+hu2SB/UNN1iVH+PeF0W7flZvFtRrQjbboeGULzwCWfkRo/N5aCwZQtHOEwCK3bXbZc5wqgLVBx56mNfu5bVCeEs4Xb6QCGRcgOSt3UKyMboD6IODxHnAjlgAgdbjns0AjZ4BDIoBGKO4QIHs/fG9KOVAYOkdi1EZAXi2C4OD7nz/KYeowIycAGquFFeLE9UJRoPB4hBPo1AmL9/BdYx2BeDF9y74Vxbv0N6Gd6xT9xz4BadQF9GN8YQ5hR8bgufwFidRNCjqiK1K4eOO+h1b30N5oh4xT9Pd+HAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="13" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="39" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACcAAAARCAYAAABegLWFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVEhLzdUNjcMwDAXgUBiFUiiFUTgKpTAspTAKRyEURqEUfHISJ89vXrfpej+WnlppbfrFSbuUji1p+TdlIJE1yXSa/hzoQJrbkuR2WXt+GzhAMsv1vIjkhtNjzrJdPztOz396mQcoJ/k4TeMoc0XpcdsKToPdC5CHQdvDtRqEYP1ccQ2I3YtC0LfRtVPWDZkLokLEIdf5PIBaAVDPOdzZV7pbUfAQLQXo/rIYSI+Wfg91UFPGgWXfg1J3B6x2pQ6AHVNQXi5hDOyWFyfXMB0IeEwENeDdbGzZ9mCMvNt/e13ESXAa2OHse/UuLARyF4NuOZBd17s+9l79sqexyRmGey4KX+s+NRrqjOskQzWrfzE6jh+ICHwJMAzF6wvUkPbRbuHl1n8ZhnUg4h6h9Bp45V0iLN+LcX99ixsrrDFTW5Z2M6K0y9ZpDEL5tzKu7UcYlyb4tPgGF4NhGMHQJzm0ePBH+XZ9AR5kPFIVWReDAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-2"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabO2">
+<imgdir name="0">
+<canvas name="pants" width="29" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAATCAYAAABsmQZ/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFSSURBVEhLrZUNEcMgDIWxMAuzMAuzMAu1UC21MAuzgIVZqIXsEvLSEEbXn+XuHaSl+RIokFLf6KBOGVFORHSj532QVvwpFV/776GI+/+BMogtFxDEAEtinml+vug9TqIzYAnGgR+Xq8IhNn2uUMrZwOegOUvw6XY3MQhiX5II0KNgrZIkuJ9WLyThwUehFgA/ECsPYyU8X6ae132plts94GotvwE9uDfFe6CW8VqVLZRsOQBGuwWsGaefVXpwXFeBuv4auFQoSlLBVqhUi62je1bibADr4KVKD4UfE2mgfoo1iTVwGTi1UPSxV7+Bq4PCV6vrzX4EG/CaChTBI9C/61aLLYcp7lQrBzYDWTiFIgzSD6vEMKacyfo3e7CbdoAtEORvkAhDcvDxnr/BbVNVjL76HhqtSQQwLEFMpko6Vsx+tve7rAm+EqS6a3+M/at1YR+KSZvTkxJPnQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="39" height="17" basedata="iVBORw0KGgoAAAANSUhEUgAAACcAAAARCAYAAABegLWFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF6SURBVEhLrZUBrcMwDERDYRQ+hVIYhU+hFIalFEZhFEJhFEohk51c6twcJa1m6bSqqX0v7uKG8LtIRjNhnz+TNxVN4RRDSltI78c2Y5b256tKclKMo5xhtDDQFlLadzUQI4g3AAFIJNeSp/n7fgqwKZpjUaDnfdXr/9tfvifFJWJsOuIJ6woFXYHTzhQgAdmWewYr9xs4qBjaV2flQdXNTQDmTmkCAErXjABb141BA+CBWCDkDLp3QBkwdEsEGHtffnN3DQBBfnWNIaHyLAPSbpZqHtdHVxa6Anrmzqvm/6JzmAyYFCjdGkF1AfUED14ldclTC3cRjCEPQIKclULXCXEMRIwINoUxxGvecy1kB5Q7SWAKJ+8Yo4LNLZQnhuM8gWxAZWCT3muWXH8dBIXbQnMqPTAYQbzeA7a5OOmeGEzhBAyjwTNlKJhg9LA4n2voXMS3eM3eXTgWvggeEEH1Qtd7+VKfPQf1msiQ/s6mizjmV2p04+cFz8QHyI/Wt+AWh2YAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabOF">
+<imgdir name="0">
+<canvas name="pants" width="28" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAOCAYAAAA8E3wEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD0SURBVDhPtZQBEYMwDEVrAQuzUAtYmIVaQAsWsDALtYAFLGSXdEnTNAOOjX/3r3ct9OWnhRB8gfLtAsgZSLkB31YAARnwHB6ND+De3K4EtoxJPMeRjEBMTR1QRR0UsSuB5TSJGUpAiAW4bTRuy4u8TrMu4pTkBQvTSQWK+hHapdOwDsgpL0Kbs/OAfI5oOUeV0kJx3IMKEDdkKIMssLk8KqUGG2gHpkX+7jyIhsUw9Ck11LTZppVFmNsrXjYNNL+m8k0ijF0uTywA015dhG1xgUH0ojcFfLMuzIXifP1r1Ycd4FlVOG7+6QjadK174R/qOqAX3+HFPPHcv5qAAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="37" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAACUAAAATCAYAAAAXvcSzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFqSURBVEhLxZWBbcMwDASzQlboClkhK3QFr5BZtEJW6ApaISt4BRUkReL1EF0VcJsHHjEUizy/JflyOV+NB94pgWmt2i//+d9SiNfW/Shtf369BcybtlYMpu27uVYG+zM4bKAg6tot1wAlQA5GcKeDDiCf1w+1X+s4gYnlGn0WqKUjRUsHaDdzTymgRASm82AsdVkDM5goZs3L7R4puWVMPKTFieE4GnWwcw3Gn7onIk2f9y11gGmKY2IDnCfDcOIkLXgCg/EkpHHdHqkdTOd5AtgwgwPLLmaoHmHVwgjzE1AKlnkZKG4eXxU3RgA0jlvK/RW5GIxNr24KxBAzEF9HPCcWPa+fTJMFHofhbP0wCMLI/b4xxJiwgsUhO1ncKjtaGMilf+D2zkAcBoCGOgymZ5jD4Veg2udpUmPQkNbMeDYdFAuwbK54BcgVYEdeKHYakEsncSGAWS0W93Md3mmrQoDfwszEdQ5rfQNVeD3Zdy+9MgAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="7" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAQCAYAAABtPJ3XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGBSURBVEhLtZYBccMwDEVNoRRGIRRKYRRCoVhCoRRGwRRKwRTck20p35LsJNuqu39tnFh6+lZzDeGzkfXCQdDznj4epVDeThWW+znGovT8KXo9tqLJ3j+HgL7WIAUZwHHOQCIo7v9PaCheYctnjFJQA3nyILkZ0hVg44qG/L595ZyXBhpyTqmqgTI0rnfidS1qng3Iy2noHaRBCWC7ft7X8r2sMzAFQItjGkpHSnWc1pCXcBMdwYKDULDEDk1iWFwr1wjVchw622afITnfCLaDtEdYgbblDnbsLvM9uY8uSw7lNmrrHQVQH9ZAypFVKIbRYhf0mriM0C64ff3NXKUQB2VOwT2GoaO/om7OGdw4vo8RauYsRdnIg+05RgBxfVySAWdDQLoOQtP1CLrrTCf5DawH7gGNpJx2o5sfhB0B6xEYSe+b5dDQ9DmD5jDQ+L7V0kW4cd30DN7LdwWYQgqj+BdN70o8XgT1cmBTumGZb/7/AbnPws7CNOGAeqGfPSsTb/R4sdx/lEPEAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-2"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabT1">
+<imgdir name="0">
+<canvas name="pants" width="30" height="22" basedata="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVEhLvdaBsYIwDAZgVnCFtwIruIIrdAVnYQVXcIWu4ApdIV5K//A3+ihVJHc5tbT9GijgMOwf4huOCJEpw4fggOQRBkm3+8/hDEicq1T0cZ0yLDH+Hlc0Z4wHw1pxShlTdC98bbBcTn8iMu4OlwmXzcM5jecZRsWEIz+Bl8lkzMjtHKrUthe8wPjshamCuTKFYrhaMr4G95xuqlTybvXoO9yuc0oG4vsW2Fa9Vm0LtmppEWt4jZZr61Fg/NtOt68a8zVhoDmWDcUgIG6vYA0CW3hdbQP1Oxxt/rbaButBXXGcHwp+cga0P46jzapWvKNqe0joYMCMM6rHgTPqr/NmHOlxnpxh9PNZVc243dtmveI4C3jdvcN8f838agxlLOH8GN3yR6Ga1Ff2z+B64WXx9r4ObRTRC3NUC6fsjq8n4HgC1kqUdKZl6LcAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-2"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="38" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAACYAAAATCAYAAAD8in+wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFsSURBVEhLzdWBccIwDAXQrMAKXSErsEJXyArMkhVYgRWyAitkBfWk+ItvRfYdNC3o7l8vrokecoBheL2k5KNKZB5kvd6A+wig3KdB7pfZojgCvq1sUgpTTAP370CRZYPJslgyXAD+KdIaGApR3Lo6DkD9y+gEeQh2A8lomHk8G+j79GUxYMFFINY4R0z0MSFFyfiAzBtQk+EiwNd1T2PfM0hr6JPRKii9vp4ni+O0ksZoXq1hXx+ZVnnRhsB0gNEs08VS48a6aYLcpbE3w1WoCGlF91Q4nmDSGBPy67h/qY+13HR7nnqg1vQch+cuQybAHXKOsA6KMTg+fQ328rp/KHpAglYflh2Kji/DoDGjNPz84f9dYAtZfk3i8+UPesTEpkCNw8nCuAxWActXjx+3fkmX4I0yqoJFXNaMYYyL+zg0jVaaVeFaTYDCNeNwDwRTyY7o2fIGPnq6OUbOMA4DkxxW8cbcIK5l+XX9ALD8VY7AA0wtAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="44" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAACwAAAAOCAYAAABU4P48AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFCSURBVEhLzZUBEcIwDEWxgAUsYGEWsDAL0zILs4CFWsDCLJRL2mTJJ2s37rgjd++uN9LkpStwufw+Mj74xyBJJqdtjUkmbM6R/GYcKeJyXmMhz4XXNOecEtZR8rp6UsL8bmjyujwVOK2tYRWzsHBtLPtJnPA1Sw5ic1rSRUA2wsTcIN9ZnHhcb7pehlFl+Tmtg1NDmT1kOCGS3hW1ggTLGXGmys73gdFhKA9f+c4gbfz1iEWrlEimcXLQsz2cuAwn9SmidYS4zJuw32hkqRlKngEH0BPHAay8eMAg9J3YhFG2nioKfAuKy9Vy8hHmC+yvgzv+zyuAr/sIKG3r2OvSw/wauXD3VQqihG0mmILKmf1H5CNhCj56ScKCSKtQJN9D+trrIH9AjT7lw2izLdCRxVD51mHYvIBu4IaIbwJrnK73BpgdPaaxpOCtAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="5" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabT2">
+<imgdir name="0">
+<canvas name="pants" width="32" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAACAAAAAVCAYAAAAnzezqAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFcSURBVEhLvZaBEcIgDEVZwRVcoSt0BVfoCp2lK3QFV2AFV+gKeEmTkAQqeIfm7p+1Bf7jg8UQflPJ3/hnpRQR4G8QbIZ6LSEd+/OnAMYwbVlg/lq3oQDGDA3ThBFv04yfAhAjGgMAaBQAFBmcpiw2l+sYDcSoFLIJzVxE9w3AcQwFEJN9XkQ6BQFAuAwwAoIiLQG8PMCIZaCBsnlc1kItAIb4FkAGgUFr5mxcQMA+qADA914IYw6D1owvAS5S6F2Gr8x1Mp8ANEgL4uxI5t5A6+q5AEApgB4I6QTrWBtcm7N8O0kBJsJpdi5HMXsvbQztPYQA8EZkgM6fJiUQ0hRuxswL2kIbD8HX8kaE0ik0IM4Gmzt06JWLJ9xy3gNzFkP4diYF2dgZqAYhcbloDBCYPm53lIaoSc4L3lu4xBZCTdiY1QqfsbmGaPXR6Zj/DJSo79SqYqYdg/i2Rb83SAPwKXQ8wr4AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-1"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="35" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAVCAYAAADM+lfpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFYSURBVEhLzdUNkYMwEAVgLNTCWYiFWjgLWKgWLNTCWYiFWsDCdnaTF17CQtMpczQzb/oH2a+7lA7DZ0tyvmKJTN8Bksc4yHz/E4nxVFCBPG7TqSAbjWIUcCbIIJYYS/4bZAXu11EkDvJ7+bFHw8zzHuhQlG1YAab03F5LqEBAIUehEsKKrSFTuFoSSFagF6i3YaVwWsHCEB2ZpnRIl4J2UMg7qLxRwqAoJ443SwXia8hBeXmFypssEBTeih6zjCyNteqSA9sYYQPB/PNIPMxWhwBaupQ7tQPDL1DTgrohfM14nxUU7kkaRQCGxwxq/9/KQbhIvUIopsG8e1ArWI7exTVOV9KbvZAwXCx8Ds7jYxlEhdsQRLuSW8UYD9JiGIRz+VjuTFvYW9VdlUG86RaEQYwCJP26QhcEq21b2QTzBZQBPIIW5eSj1W7mIrijRxTtXSvckd9c1xO6t7NEEgnACgAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="0"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="43" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACsAAAAQCAYAAACP4IauAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFiSURBVEhLzZSBjcMgDEVZoSvcClmhK9wKWSGzsEJX6Aqs0BWyAieTfPL5mDTSqVItPVUNGB6OSQifjawPvjVyTkUWfF1UuRxDfi0xr49nzimx9Ehc55zNbUITzhLreBGcd5ZYgTBw1m3GDcsx3uxNieu6ETcR3cD4vf1s42knhroROBNXOQ9qJ0fUwiTzVCaaEMAzqx4qCckyXqTHIip+CFEOigQc2U4UgnG6Fx73uQJpPozNOQ4kmzrV9A7jHuB4qySKhXdRiKV5OYUP0QhDGgXwcOQ7OlksuFfqiuQIy61tg15Ge7A4Qg9AWJu1onzKPA1FuYJXQJV9cXmbkMfvfh/6Xq2vo6+qJ2A56GP89+A5oJHnrwh9TXBZQd+vclFUEqKe4BRuLiyta3lrsiC7dNUFI2Gt0Jmkh83n9UYtpuKeLEdTEY93olwZFVZpleT9iUuhSS4jUUXzBnw8dMMR/4o/WX1r7zG2tWoAAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="6" y="-3"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabTF">
+<imgdir name="0">
+<uol name="pants" value="../../swingPF/0/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../swingPF/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="36" height="27" basedata="iVBORw0KGgoAAAANSUhEUgAAACQAAAAbCAYAAAAULC3gAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHMSURBVFhHxZeBlYIwEERpwRauBVqwhWvBFqyFFmzhWqAFW6CF3NvALJNho6Cg+948UJPdz2QD2DTHRZq0e2xNnMenfvO81ZFS58mf6n4ZNdz+DgQahnzFKbXp9/QznvdN6tqznxu0yUDu1+4wIIfJIBbTeYZJ7fybQeWx/QeAurHoCNU6CGAUCC7tDVTAmCMQIFgZcgKCS3bcC8phDOB2voRiQAc6wKXCGSvcX66hGEyXDVDvuuRNDGe0OKRgc3+lR1CbwMZk09aOYLiPGLhwSXqJobaAzVeW2kUxhkFChoKiXqrpGdTiHqNLBAdMDFV1SZYuAnzklrsDIIbC57VAVadkF+I7hZonTUAMxWKgtjmFQC9ByRLShPnOW4NhIDtGQBifc+M5x8slUBCgfLnsnAur7CkOGAVSKAY34cHrQNRjVSAUURBLBpi1QBEUXksKl7A68ysO7CwLqSsYjAIoxkAKpUCA8iUsnCqAykmAEhDEAqjmEi5KoUx4W8Cbg9bxgUgiYMVYLmSFa0DqErcB5whq5PAfgwnhOAbi3aYuMZDOl9zV2DKhgGKgwIU1+d4OdyNyhzbFxyIX5r75Jgyi6Dv8A/kWDEJ75SWYf7w+GB72SppUAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="8" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<uol name="pants" value="../../stabT1/2/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="shoot1">
+<imgdir name="0">
+<canvas name="pants" width="27" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAASCAYAAACq26WdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEcSURBVEhLpZUBEYMwDEVrAQtYwAIWZgEL04IFLMxCLcwCFrJLm4QkLQza3P27rTR5/TQXQrgOaFRTAKwBIAZ4DSPkmGCd5rSWnq0BvksW/m6F5dpYFAVTAgpIa98BYoR9+3TAUhF2NYkzWWNQJyzXVTAWOmPJIQjYByOQBmzzYqRhre5yMt2TB2iZV9zgTk7JnYdF4/IuhOupYTrcFa48xANNszyA0V3VXenXV3UnTXUPaFzVGkKvMVA684G7465iOAX5rjTucKLcdEebcrt7kIf5w4g7BP6BFa5qxVCUXDy/686AeKB6FwIaxiwCJgANZT2Qj5rRwmriZB5TGsT/uYl8LuefuatFUYBB5gAXRfQn6GrfWfgD/Auz9wfrcv+liwDL+gAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="shoot2">
+<imgdir name="0">
+<canvas name="pants" width="27" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAASCAYAAACq26WdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEaSURBVEhLpZSBDYQgDEVZwRVcgRVc4VZwhZvFFVzhVmCFW8EVeinQ2hb0EJr8RJH29UuDc/cBneoKgM0BBAevaYYUHja/xLX4bXPwXZPwuReWamNRFPgIZJDUcQCEAMf+GYDFIuTKszNeI9AgLNUVMBI6I3ETGTgGyyAJ2JdVScJ63aXkfE4WIKV+cYc77pImD4uG9V0I1+PADLgrXFmIBapheQDLZ1V3JX9f1R0PVRtQuaoNhFwjIE/mA3fnWQV3CbJTqdzhjdLoLm9K425BFmabYXcI/AMrXNWKoXJy8b3VnQLRhWpdMGiakzKQZC/ks2bQsJooma4pCaJ3GiJs0ubHwhfuamGTGaQaEMVrQU3f7bmKJoAJ3vsDjKT7h9lvzGwAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="3">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="4">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="shootF">
+<imgdir name="0">
+<canvas name="pants" width="33" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACEAAAASCAYAAADVCrdsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVEhLvZWNEYIwDIW7giu4Aiu4giuwgrOwgiu4QldwBVaIl7QvDemPIp65eweV0vf1ATGEfUUd/bWIlkAUAxFNlGryQCMdLqJ1LRKQBHE9ndOYAZeQxkug51z0WwguORrzfM5apovCsDnPXe+Pn0CUBByEgpgk2Fx/l9TiYRBZpIYg2bUVoDZwef4RiBpAKqVwv8xdAepoGlsA9yjYhM3ifKtkQXwae0AKAIxxHtPzhpEH8DDfplED2HEMwxS8FET6S4IYgciFCsBCmBSsiZeH0PfjDUj9AnqARgrWGF+IB7EQAGlBFMMWgEvBGllzJOkflZ3jISxIMe8B5Fbsd7sBOJ3lOAIdpdEE4AkCkbsgOiJ3Q7uoAkA5DcjeJ208n9cQaLsNADVywq4sBMabax0BBBACwtJdZ2FBTHKlADBtGHdr9M/60QKmvOme+3XOCzyY7k0iIKdmAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="11" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="35" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAACMAAAAQCAYAAACcN8ZaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFQSURBVEhLvZQBjcMwDEVLYRRGoRRGYRRKYVhCYRRGIRRGIRRysuPvOk489XrTWfpq08TN67ebZTkXNdC/R61ZVNddaQCL9LWotZSmnFnl+Wpgqel+uer4edu6ufcjfQ2oAQQwDEEOyb0FASCt/SsQJ89AWHXlzSAAWRB1K2eGOQM0QlAAppTmisCk9fZR3p2jQCOEB0F5HAiVJhLNwx0A0fUT0AhhQYwrKJEFydsjVARE9zOgfSNXjggEruDrPYCHUSD6uwRo5o5sMHHAjlWtMT2IL00ExP1jgKw7I8TMIYGYgRyRLZU2dGoN3cPIZpgYHOGv2H/TWcPSGM3v5/w6C4N9O5gOBI6YU9WDePHLLtcmB2TXvbeFRWusOwozOCJuWAi4w8e6vJCeww2A4JmFt4cg1mMeYH0DwxGXFEjz1A0D3kGOOhQ+6Wiiz/ltvsYPZb3mIjQqTL8AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="13" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../1/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="proneStab">
+<imgdir name="0">
+<canvas name="pants" width="23" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAAQCAYAAAD9L+QYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVDhPrZGBDcIwDASzEzuxArNkBVZghazQFbJCkYNsxd+3DRKWTmra5r75tlbPWfDTuM3nGB/mvDLqECebz5fhpDLseq1veYB8hQlVqoNfjKypAlQUCbOK1r44YD2ksgp7v+hfAvbeGSj3z+IA695twOOnp8vkHX4sw/VM/k8QYHLheHRHGaLTA/lxv9aCQWmIkMl3EYbsYVGAOL6SMzAEg5h83ZQjoSyChVCxSBWsgEoCsG9d/Jv2Bi7LW5xfhZGAAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-7" y="8"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="prone">
+<imgdir name="0">
+<uol name="pants" value="../../proneStab/0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="heal">
+<imgdir name="0">
+<uol name="pants" value="../../alert/1/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../swingO2/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../../swingO2/0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="fly">
+<imgdir name="0">
+<canvas name="pants" width="29" height="22" basedata="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAWCAYAAAA8VJfMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFbSURBVEhLtZULkcMwDERN4SiUQiiUwlEIhWIxhVI4CqZQCqGgG1lenSx/mo5zO7NTV5PqaR0nDWFN5Av/KYbBS7KNpn7tgSheBKUk/v66EdH2ty51BrGP5w+9HjF7FSyNDex532s4r4+DKKXLwLmpNGdtFTBu91KjDLbQFbBCGcDmNRILVIA+LT7NfT8thab9UZmhbN1iVoECaIdwB28o3VJO5KEA6xa7tGx898PM4PKjN9Aqbb6+TmxrA/gYys09tAHzSe8lZqCp2wE8WKf0UD/ADIzmec3qwC24XNgm9dAGXF4YCrAQbLept9AUulB/nwEFuIJHeU3CqPkDVW6+FEdQC7LG88wA07jnSiV6H2rB9sUBI2mv8UyytTHQrUzloQA7QM+n1UB7adk2GbbTDXFa8gDvAn2XFuDe4fhUCsbko8OD53MFZuXvj8I1Xfm/vQo4UzOIv+BT/QILta/Q6dMVngAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-2"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="27" height="21" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFbSURBVEhLpdUBsYMwDAbgWngWZgELs/AsYGFaamEWnoVaeBaw0N2fNunfUDjocpfbGF2+JRQWwlxkyqngAqf5v4ac45dYzosU+f155JzKsb1HxgJJvqLkLGiAgu/nWo4rJLltktv7bxqTggDi8swlFoPwuXSIcNgM2GGaiqDD8iOWgiFSMgzwHVC+r4WRaX1Z7jBkStbd3ZFKoUcIO0gxZBllBQnj97RrD+MUG3aHy6fYoNMj1DYEMBT00BAjAK8jEMcerAuDYdqd79JGiVvBj5J+gG6eEdhhPEq/Waw7xequ7LqT+TbUg/VEwxTkLhnz3e3AATrEUEhf9VbwozRQnyhHIKGGyaLYMAZH3V0CCe2vWYUYYPCoO12nD2dG/fgMw0Luih9Vo9vBY7VgQ9vfTwdp7DAGcd53p2tQnAqfIhxW3IM4p9eu2/7f/oEqqpgHNa92cCX8SEZ5Oz5LzMo+gTdwwAAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="jump">
+<imgdir name="0">
+<canvas name="pants" width="34" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAACIAAAASCAYAAAA+PQxvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFgSURBVEhLvZYLjcNADESXwlEohVAohaMQCsWyFErhKCyFUggFV+PE7qzjjVopPUujJG2y8zR2PqWcW0I6vXjxQz3mIlK/CCKtiMgkvz+X/T5UV4jHraq+ByKTaLWiAPfr/PoN22URaU2W+99pMLu4YeAJmDG0QTHIGTCrKYoWNWMY1unqwrHJQZJUCOYtoNW0bv3eZsAArBVtvrlwzFBZKrY1sHeAFOJS1qhNMIkAEcaAfF4oFYVKUjoC6iCOzKMcBClaewYwDITtEOZTCIbR9mhLw4yZCJBblsFovBHE4o+K54xS2SUTEhvDtLIzNSNTBoR9TwVGIZkOJsxSBqNDG80YImoIw+lkMCGZCKIweFRHQ4jvKJr8FMaB8EggQwxql8wGmYGg/PY9AOjOZxiIr1OYWnoQgknW66oDIIhReTrcUrvW3sr+cpxficaFsupaEP8clJ7LadJnQdS/1MemT+QW323hTtjZAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-4"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="sit">
+<imgdir name="0">
+<canvas name="pants" width="27" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAOCAYAAADez2d9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD+SURBVDhPpZQBEcMgDEWxMAuzUAu1MAu1UC1YqIVZwEItYCG7BAKf0G2w5e7f0dDkJSnUuTmjCf1tRLRUBZfkHZ1bEq9nYLbCIk78uN3JL6sk5TX74vGkc/dEIch6BJYSxihBTfU5sUCyT0C8jrGDfQOSmEKgA9axbkX8zHvalcJYEj/QXeqIlgLhxGHbRQhDoMBykaOwFAAwBWFihNZx8iRy7CCwfqfgmq4UhPAOxrEAU+BnGBwCOy47QoHJsc8w0x3KAlMQwFR6ENCH/gYIMD6Zb2EovKRwQdt3dF9h2CEAFWqBaDb5lXXFiS46HAHOWgUD/Ndf2KjZqTQTegHrDXXa3S+H3gAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-5"/>
+</imgdir>
+<string name="z" value="pantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="ladder">
+<imgdir name="0">
+<canvas name="pants" width="19" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADZSURBVDhPpZSNDYQgDIXZyZ1cwVlc4Va4FVjBFVihlwKFV1qQ5F7y4k/LZ4vaELroDxsRxUBEBxXx8Sj32Hfxc3bztQcjipEopbk5Xp0+X3quOx/XMNEIAyDCPKCFedAKEphXXb6x0yaC8JxjAuwwqQQWvnkLhnuDLUkM4wqm9muAodVWQI4PcxIl2cBgO3zY4snN0oG0eeoP18JqcoNhFRAfQRUWLAyqUzDR5Fdi2UqgOmkdYTMQq/3kW7BS1avKdJDJMbyU1aSYKSerUVTHkMTGBTvCxVuQH7P9SUiwzfnaAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-7"/>
+</imgdir>
+<string name="z" value="backPantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="21" height="18" basedata="iVBORw0KGgoAAAANSUhEUgAAABUAAAASCAYAAAC0EpUuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVDhPpdSBEcMgCADA7JSdukJmyQpdoSu4QlZgBXqoCCJSvXLHxeuFD6HR4+gD/8hpIKYDEU+UoPVZfqe8Sz6vkrSOUESAtUwpJ7w/+Fz3FO2LolAwo3T1YOnAwrZLBUaoIAD5hg5XkH7tLdQWRckg1Syh9hUZmKEWnqK2azsC/aARpe/Qzk6tG2hmbB84joBhRr3OGaRwUB/Ou6YWK7Tr3BmVoP7uKtvQKVxCgy3rFtK64ZwaDcAc7UCpxdzJMNvaHR0sIVhDTieA9unQNUN8akl3P0GOfLM95tSfsYXZ2Ea+xGJ9FD7BmGQAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-7"/>
+</imgdir>
+<string name="z" value="backPantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="rope">
+<imgdir name="0">
+<canvas name="pants" width="19" height="20" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADlSURBVDhPrdSLEYMgEARQe7InW0gttpAW0gIt2AItXObExWUBJZ+buZEIPA80TNMZ9kNWYRYmM5sthV/ndA+5ptyWlN7uYzHeZwh7xufLtsfaxM7BHAo1ML8qeA5UUNEDGsMAalJFgK6xGPdOnqQJ5BrDcriyEKqJWp1iCWCM2jwJmIJfYfjNoPd5G2AJeP4FY5CwDNALGsfwEqSS3HeLyfIqjKr9HKMJjPHeIevvTJ5eLM/zeBBjre/swOjP3tj4HtY6htLZJRj2I2NU8d6/1BCiPBD9IMyHJd2jw7EHITBgNIt4A4ZE+SDuAovbAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-7"/>
+</imgdir>
+<string name="z" value="backPantsOverMailChest"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="23" height="19" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAATCAYAAAB7u5a2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADuSURBVDhPpZSNEYMgDIXdiVlcwRU6Cyt0BVdgBVdwhfT4CTzSmMb67t6pQL5g4LIs36LmO3LHEKW+2GWKN+BHXIkoUFUoybrj8LFV72twwYnO03ZK3ed7Lz5esdhKMAAoCf8jwQjSEmhJLuD5XSbogDw5JdEswBbcDPKYwWhOMIGlrwDamLb7CuK6ckmgTBJk7ZzHXHBZJgRofybh04E+gfNTuS3BBUcwnosNT8scBDdI26m8XQy/6jO1ZzyA5z6jgVm1OXGJAI6g8p2F8B9gVlmEZ6DCy9zolB4wqrVdaLmtzdbydeBtMEsCpE19AIgg6g11dJYPAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-6"/>
+</imgdir>
+<string name="z" value="backPantsOverMailChest"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>

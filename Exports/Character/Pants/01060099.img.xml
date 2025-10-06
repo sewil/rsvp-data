@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="01060099.img">
+<imgdir name="info">
+<canvas name="icon" width="26" height="26" basedata="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVEhLrZMBDcMgFESxgAUsYAELtTALtTALWJiFaqmFWWA51muuFLZC+pNLYfDv8T/MmHakQXVFmp1J0Zm0BHcSfoewZ7JfefP99sKyUXo9d5iO3/OUIRDmgEBYHwKxqtYYX1YyXJG1Nss5l8X5P3WDYB5C2OW9zyK4doDeB5GTYEoAY13XrGVZqjDmXoUdqtFQEL63gziGuY4VpPd6Gwjr2r7bQNo6RIxxB7GyXlDeiERWgsdAAKsCiNUAqJDLICTzpcFE26YvDoYYA1qCrsAObaMx57wfiO3TLgyDCNMgnADm6MPoBvFPqy3TdhHGfcMgGOqThgio7R8ClScVgBqcOkDYZRDGSNQWVQzuATVURrne2neI8i4YdkA/Q8t2m/ym0CHmIP8AxYSmgEzGmMemWfSsSNdVyIUPPDOMEJwEC6Vp/KMSTHgVxNa0KmmJe2lKsX3N1pX3otLeqzSPxqcH8QHn+IfqnVtGmAAAAABJRU5ErkJggg==">
+<vector name="origin" x="-4" y="26"/>
+</canvas>
+<canvas name="iconRaw" width="20" height="23" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEZSURBVEhLrZMBDcQgDEWxgAUsYAEL0zILZwELZwEts3AWuHyWv3wYHNl2TX4oo320wIypLd9U1/LqTI7O5BTcSfgOIWaxu7zZxxG0JOT364Cq/1mXAoMwBwzC+k8gqxz5GFnZtEJrbZFzrojzmYZAQEIIh7z3Rdygt9HoYsoikgmibdtWlFLqQpnbQqvq1BSI8TaQPiDqK1DP/TIQ69r2ZaC2DIsxHkBWOgKWDwhgZbgUglglgKwOYIWdgAjizSJY29UbRiJ8wFugQqt2CeCc5wexbe1qCiRUjZsQxBy9oCGQj1tb1TYJZdwUiER9KhBBeuZ6HENgu7OACDsB+a93gfARoK1p4C3gQK2161Vce1aPrdfWY/sb7AuKJWGq+AD59wAAAABJRU5ErkJggg==">
+<vector name="origin" x="-7" y="26"/>
+</canvas>
+<string name="islot" value="Pn"/>
+<string name="vslot" value="Pn"/>
+<int name="reqJob" value="8"/>
+<int name="reqLevel" value="80"/>
+<int name="reqSTR" value="0"/>
+<int name="reqDEX" value="120"/>
+<int name="reqINT" value="0"/>
+<int name="reqLUK" value="220"/>
+<int name="reqPOP" value="20"/>
+<int name="incDEX" value="1"/>
+<int name="incLUK" value="3"/>
+<int name="incPDD" value="51"/>
+<int name="tuc" value="7"/>
+<int name="price" value="120000"/>
+<int name="cash" value="0"/>
+</imgdir>
+<imgdir name="walk1">
+<imgdir name="0">
+<canvas name="pants" width="14" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVDhPnY+LDQMxCENZISuwQlbICl0hw90KmSWzUBnJEaG9T2vJAk55mBMRsT8tdvRqLy2mZe9RMTcVn2H0C8QQH7PH9wh9gKrqLqU88gJrrTbndI8xfI7L4nJCDgLovRuEGuFLsLXmEAQIMyofEsKyCG6pMHrABJmeIQdzakqI3sGYyFO/nZbljwnyv+4gaqWdnXWmDP6kx9AbfCPkgqoQOzoAAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="7"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-7"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="18" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVDhPpZCBDcMgDASzAiuwAiuwQldguKzALMxCda4eOUCqVH3phUP8h+E4rup/+Ao6S+oxfNZXDFazYvZyPGwPU+MtSI0Kq1bIgwTbgnBKqccYh0MIw/yjh/ruWqjnnHtrzVxrtW8MQGFBOWQHsgAqpRiIVTAP0pRfQYQlYJpQV/LXvYVoGplpMBAPovfRNP59Zoh74AU0IFiPi4FNgWUCLwttTlpOfKKfA7PeeaLyQYqOMcoAAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-7"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="14" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACbSURBVChTnY+BCQMwCARdwRVcIStkha6Q4bpCZskslrd80JLS0IdHRU8TERH/0+LP0fxh6qY1R0SNnD3EDXZ7D3E45+jBhJFv0MzCqnrlDbbWfK0VnnNGzWX8UwICChDAGMMhxAwT4osK2HsPCAKEGpEgr2NZBstVGDngDJ6gAE9X+advEFQu8qlp+AhRAWF7unal8q/P5i9dQy9Je9iO9joAJQAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="7"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-7"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="15" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAMCAYAAAC9QufkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACKSURBVChTnY6BDYAgDARZgRW6git0BVdgOFdgFmap+ZISwNoYP/nwFq9PSl3y0x2+yiEnZaHsZxgZM+QFZupDu8Q3sp27F5iIhJnVyLOd5y5wb2eW1ppAtdZlkRV4oMIASynjxIIdxsIdHgCEbKA1vYEKG2hPnaEQ9Jrm+2n+kLZGPwTzePMX/QJvy8+6E70fjM4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="walk2">
+<imgdir name="0">
+<uol name="pants" value="../../walk1/0/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../walk1/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../../walk1/2/pants"/>
+</imgdir>
+<imgdir name="3">
+<uol name="pants" value="../../walk1/3/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="stand1">
+<imgdir name="0">
+<canvas name="pants" width="14" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVChTnZCBDcMwCARZgRVYwSuwQlfocFnBs3gWqkd6Qq1EVYr0wgEfjyMiEn9K4mUaphLHe9QZGd9uUj1kqEA2cZkgaqx3oVagqoaZfQm1OxWIWGul3D01xsgBfBMHon6u6p4wMuEO9k0IJYjLdAU056zJdLkE0eCKgHe3be2KdOuO7R0FXsFZoCPW7D/lRqcrwQ36GQk9AXo8Aj6XIdybjA+YDQAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-6" y="-7"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="14" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACLSURBVChTnY0LDcAwCESxgAUszEItzELFzUK1VAvLNYGRbm3akVz45B5HRKQ/RXrlQ09hTfLMwtQ6dtyxQ5gdxBLNNuMeoRfIzCoiLuwzOZhz1lprUylFU0rtQezw2WMHUYCtG2ygQXH3RCukwhCTh6AlQavQMHEJhLlPxC0Ye3k59GGeVg9s1RZwA5NZ80BO0D98AAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-6"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="14" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACfSURBVChTnY+BDcMgDAS9Ait4BVZgha7AcFmBWZjF1SG9FdokUmvpZTB/PJiZxZ+yaG5x9BovL+FlX+uMtfYbiFFmOjMZBekswVJKuHuK/ZMSxFxrXVLNObfLOJM3QYattQX03ldnNsZY/RbETIIgJQpW6hdImiA6Yib4CtrAcyLFXE+8BbldieyR/ijwpKxMxKh+ZfysfO7dzU/1k/kNdg/+m5tt+MYAAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-7"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stand2">
+<imgdir name="0">
+<uol name="pants" value="../../stand1/0/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../stand1/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../../stand1/2/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="alert">
+<imgdir name="0">
+<canvas name="pants" width="18" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVDhPpY+LDcQgDEO7QlbICqzACl2hw3UFZmGWnNzKksnBVbpasggfP5Jte6cQLy8eXf32FHQeJXa3cBtrrNgjiD29BOFCw6z5u4Lw3symIChKKeHugxHITqN+Q6Dee7TWotZ6nSmcYannEKyA4CFXhRC6hKALdKAdKTSPnUHXJQCEsIYJ4yisM2QAqdCRBLKnyr88Bn7pr5DqAzBs274NGbOEAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAYAAACEJVa/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVDhPpZCBDcMgDASzAit4BVZgha7AcF2BWZjF1aF8RBOjRO1LLxzwn61s23/y3eHlIxdbQN41+8uSW/quOfmm1tsSwsMcVM29LFBKKYbknN3MvJQyTE3zymfIABBEvXdvrR0gmT4NOQMGRIBa63HOIAFUXwBsoaC2wAR0ChIB0JimDeb/AYABt1sIIIjERnsgcgxBd80r/RSa9QF0BeBk1OTEqwAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-6"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="16" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVChTnY4LEYQwDAWxEAuxcBZq4SxUHBaqpVrCbI4c4c+QmTdpobvJMCxlL7MIxvqxr4qprM9Ff3d6/OO8EwAERA8ges6hQFU9IvIoO0Epxajeu7XWXMY3EvIYtIVdAFhrdQkQkixg6iM4NgDknAVHMPVfHwnJG9xNp/xh3iAmz8A25zD96vFZvYKoCY7u07U2cxX7AAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-7"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingO1">
+<imgdir name="0">
+<canvas name="pants" width="18" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACCSURBVDhPnY7RDYAwCES7QldgBVZgBVdwOJesuSoEkaZakvfRhntcKf+n3SxPFwitiTTUqF4cO3+WWRgBgLCKiKgx81Bk4Y2qXQUqQBhMRQhDAqJARAyVDUURH1aBb5XJXtd0yQv0X8ma9Ydf8M18k6xVlJkwfkZhbJbsT+fRNB49AWwyoQqWJ5QSAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="14" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACNSURBVChTlY+BDYAwCAS7AiuwQldgBVdwOJeseeLXiphWko9NewdYyr9qV5bLBdM1kVBTKe3Yq4ubSip3GBBhiIiIeCh2GN0A4wuBEgVVbbXWWyTMQCCMAEai6DIn4Mx1AJmZ50vsK+MR8WaXNBXHlShzKu+j5GLWeSa+VqIUN0nFOG2A0n/zhySxHncn3kSqZznKI1YAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-8" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingO2">
+<imgdir name="0">
+<canvas name="pants" width="14" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVChTnY8BEcMwDANNIRRMIRRCYRQCbhSCJVi8+6xqk63rbdOdzq4tWamZWfxJi3vN4elZb55GT9W8uO17+t2oBWL1qjOZLUZ3H0wpfcUjsZTIOUfvPVprAXQMskNH5XsxAhYY53ppJKnWOqpSZZZQB94SZdaz58SztGHEAIFSOXD1zGGUQQf0z8w24SuPRCWoh7PoDIvx7PIn/CQWHrEW/qzGk8y8AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVDhPnY+BDYUgEENZ4Va4FViBFf4KDucKzMIsmJ6WnCgEf5MmRvqeGML/qVc/h2BVCTXpmqhB6L5FAyGYSR4Qxj8VA1i8ExG/vUsAAiLMZ8AAfUcS5Pa1t6qqdSRAbJhzthLgl/GcUppKbFBKaUOKeslQgBCGiIIY49It2gCBgL8BkQPmEhwC8De5hn789u48cOa+y/kM9DkA+R66m+iA2L0AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="18" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACjSURBVDhPnY+BDcQgDAO7QlbICqzACr8Cw/0KzMIsvBzJ1OVppWLJShTFFziOfXXxliL8LalnfwfSy93tNEBmtoRdQvDHLUKofAVBAXZfg7DMsPYA8AUIE3ALwuLKDKeURjjnvASN5VrrMIJqBtEDhKqgGJZSOoTaWosZYPNLuE84QRcIegowhFEJ0MMyO0EK069MANXfLCC4Ol2+AzxqO0j9AIPl0mFYLtIpAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingO3">
+<imgdir name="0">
+<canvas name="pants" width="17" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAYAAACEJVa/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAChSURBVDhPnZCBDYQwDANZoStkha7QFVihw/0KnaWzBBnkvClF/GPJogT7CCzLf3Lxz9KSWzpcbA46henVUpQ+NT9DEEKJRdwjzJIUj63M5iCGUQQspbNRZPkWwlBrLZxzjrkCZhAvpXit1SFce+/7bAQxy5mC9rCCqNkWACCrkCjjITaA9dP4M/lC5GT2hVA4wwANZdVlFpsM9EvwSa9K1AZQv9VN/gEAMAAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVDhPpZCBDcQgDANZoStkBVZghV+hw3VJXrbkNI14KPpIFoXEl6Sl7EfPDzsBc//YwTMnV0GTHaU3K/066xbEzTDihPBW6xrEAhjROZoJNaN+Qbwz9pZgQOfWGoXvKURjh59HRYAgs5W8iwp1j4DZSuwmwGB0hymXIUzIkAFxggjK0zw6Zki+x6kE8TUETBrVKG5IHmsQq/wryKv4C/AF7Tuyo/gOwJUAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-6" y="-1"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="18" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACCSURBVDhPnY7RDYAwCES7QldgBVZgBVdwOJesuSoEkaZakvfRhntcKf+n3SxPFwitiTTUqF4cO3+WWRgBgLCKiKgx81Bk4Y2qXQUqQBhMRQhDAqJARAyVDUURH1aBb5XJXtd0yQv0X8ma9Ydf8M18k6xVlJkwfkZhbJbsT+fRNB49AWwyoQqWJ5QSAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-7" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingOF">
+<imgdir name="0">
+<canvas name="pants" width="20" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVDhPpZCBDcMgDASzglfwCqzACl2B4boCszCLqyd5yyGFVslLLwPyH4Ztey47/EiE2Luk20CHqOwg1Ky7V1APfoO8VPqaDrA5EEE0EkAIKs5FxN0vU10CIX8KgRGSUuom6C8gw7VWN0ERFtcjhOpNOWdrrVkpxSDuRyDOsV8C0QShEQIIEwLCyqcOwAvUpyOUIRgw1BCcTne6Ec/EVIRywskU4/4Mo/lXAXIJ/tIYvgX5AE48652dKXh/AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="21" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABUAAAANCAYAAABGkiVgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACwSURBVDhPrZGLDcQgDENZgRWyAiuwQldguFsyp6SY80HUoqqWLIKUPPNJ6Sftfk1aJemnFYBnP5JDD8nDFoD6SYCKyDCDzbiBreZduJZStNbqthoBOWc3gJLPAFvv4OdghzKcAxBiQDOdOpQPM7i15p4DEOJwkUuoaYD5KWY4B+yAx4A1Yz+Dlqfo9RYYQ9EnRs9g+6uPC8Ewn5INMMEXDXDQsATwiYP+P902cMDc/wVwYe5Wq75zrQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-4"/>
+</imgdir>
+<string name="z" value="backPants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="18" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAYAAADphp8SAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACkSURBVDhPrZCBDcQgDANZIStkBVZghV+B4X7JvJzWUaja0vZryRIQcjiUck2W/FjWtNi3179gDlApi1Xdd2B+mQDuReQyyC8hBcYhBAD6DBQvojkbjbXWGGkGgjzFR8UBMdraRNgslbXWvABQhhDA/SyV9d5z0deAszmfn8ECxCIg+W9SwwDchfHwIM1WkTJ5KeylOYBMNaR5CoFeSQNtZ74F+gE5ibcFBng0FAAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-7" y="0"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="23" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAANCAYAAABCZ/VdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACxSURBVDhPtZCBDYMwDARZISt4hayQFbpCh2OFzJJZUp3Lo4CIIkr60suJwfeGZXmuunm66vqONdncAIdZ+LqBPwpwADBtDJxeCKGa2WVAm9w1QGAvCw5ugVTuZ3iNMe5OKbl1RzlnB2LgQOQR/BAAuJTiFVEZpEcIZ4FaMLO934J8WJsjBs5QzldgLdGDI38IAKg2Z5ieQvSeAgUfbS/tgJF/gd+Rw/4ZgBzefNV0HaAfyf/mGhoDzHsAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="0"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingT1">
+<imgdir name="0">
+<canvas name="pants" width="16" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACfSURBVDhPnZGLCcMwDES9QlbQCl7BK3QFD9cVPItnUXmGSxzVMaUHhyTwfUhSuuB/8jIolvxds7/scDvuO5ObnXdwaQBnEbdETHFtUIqb2Zja4Vw53l8GsPfurbVBmUgY75u41uqAHXHOeZgxJVCzZTqPmUAteMxU+tZgbqBUxNy79GGAGMYGGIWP9myACCj9KS3irK+/sEtaIQp+EgkfA4LqWotE2isAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-6"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVDhPnY+BDYUgEENZ4Va4FViBFf4KDucKzMIsmJ6WnCgEf5MmRvqeGML/qVc/h2BVCTXpmqhB6L5FAyGYSR4Qxj8VA1i8ExG/vUsAAiLMZ8AAfUcS5Pa1t6qqdSRAbJhzthLgl/GcUppKbFBKaUOKeslQgBCGiIIY49It2gCBgL8BkQPmEhwC8De5hn789u48cOa+y/kM9DkA+R66m+iA2L0AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingT2">
+<imgdir name="0">
+<canvas name="pants" width="19" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAALCAYAAACd1bY6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVDhPpZCBCYAwDAS7gitkha7QFVyhw7lCZ+kskQ9+iFEE9eGJtPH4bynP0sO/passKosDP0NVRLRJMdjWq4HfQH25taa1VgPCTIgJcNzNEMh+BqT3bqbGGHbO2kgbE2fwBQLwnNMmhG/Ykx8wOkCLg1gvApkMk9UJJQzwWNlBMREmDFCqc+eT8mW27/F9Q8rPMhieBfMvDLpNvQNaDcfBmeL6NwAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAYAAACEJVa/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACjSURBVDhPnZCBDQQhCARtwRZowRZs4VuwuGvBWqyFz5hwQZ/zkifZiLKMaEr/hW46FkNdrajkpFUeIBg+kqcpymlkf4RQsEbfxOoB23QrREQ053yU+R4htdapMYb23qdKKbPJGn0eAlprShgIAKtvpMb5DrkLhK2EAWwivFyEP4RQ9JOYAPg/MK+fZnkGN7O3HEDwgT+T3Dc6864olvM382t8AV5g6p4Sk5s5AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingT3">
+<imgdir name="0">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVDhPnZCNDYYgDERZoSt0BVZghW8Fh3MFZmEWzDUeqWL9+S65hEjfA0zp//S9n0Owq6Re9J1oQOi6ZAMhuJNMEIZ/Kgaw+CYifvYoAQiIMNeAAfpGEuRw2lVV1XorwWCt1UqAJ2NdSvGSKTbQWhuDFJ0loQAhDBEFOedXtxgDCAR8BkQOsJlIZBsA/E2CH3f5HG89N8q09wQ8ZgMdp78wy8vCmAAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="18" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAANCAYAAACkTj4ZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVDhPpY+BDcMgDASzglfwCqzACl2BWZilKzALs1D9p0ZOCBFtXnpZgP+Mt+13ta8fqb1TaFH/hzGostuBlmFsfqn0nwBEqCp9B+vTEAbEfiEitAddwYYwKmwAhGKM7EOdgQjzQQ8wr4D4CIcQWimFzjnzjACqrWW9lxAopdRqrb0ijAqorT8D8QJBGDLoGeAHT1cyCMKwm3ZodhruO+gUHhpX9CgMfQC2INSjD/jTGgAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingTF">
+<imgdir name="0">
+<canvas name="pants" width="15" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACTSURBVDhPxZDhCYBACEZdwRVc4Va4FVrhhmtJ4xO+w+yioB8Jj0R9Jici4h8Q7ya+mfo+WnyZow6Qm0rA+kUmlAhFcpKJqi6p56aaeO/dW2tRQD7GCFg3swlEfCnPBam4XJIXZfl0AZtVALmf5VhQ4TDORV4uvMRqaP41v08VGXmAQ7HgjYxYNec73PQf4z8ZEeIBHTLAUX4VF6oAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-4"/>
+</imgdir>
+<string name="z" value="backPants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="15" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACgSURBVDhPnY6BDcMgDARZgRW8AiuwQldguK7ALMzi6N08dZygilqyjODvTEqf0nP+VYDZW6UvyfpuxeauyCDfOyItpaiIWOf8lUhOP0UG11qnBAK2F6GXcGttCsYY2nu3pgj3NxiXgFGcCEOASQneImwCbvflt+Odi6Lg8nWCOHMbBEvYfx2QB2NmCRM8Az40M3G7N0ZoZhx0yzwBsS6ZA/hE31SIV8AVAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="19" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAANCAYAAABLjFUnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVDhPpZCBDcMgDASzAiuwAiuwQldguKzALJnF1bl65EISRe1LL1uYvzhs23+y+eAXAbGaP3UePpGCltNmeyten8JGGL9ycgDbAAmgS9jydSD0QARKKbn9Xs6XwAGIEIUxYQFiv4AYlFLcx3FY792t0Azi3hnMB7VWa60ZogdIBaigwrpPjbAFpIoAAtCGetNbGACsX1SPAQmiDOBTmLZiEDc6gUSN7eK7DVgI3kGksd18bzl4qK/cGwR780Bva2/yAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-1"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingP1">
+<imgdir name="0">
+<canvas name="pants" width="16" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACfSURBVDhPnZGLCcMwDES9QlbQCl7BK3QFD9cVPItnUXmGSxzVMaUHhyTwfUhSuuB/8jIolvxds7/scDvuO5ObnXdwaQBnEbdETHFtUIqb2Zja4Vw53l8GsPfurbVBmUgY75u41uqAHXHOeZgxJVCzZTqPmUAteMxU+tZgbqBUxNy79GGAGMYGGIWP9myACCj9KS3irK+/sEtaIQp+EgkfA4LqWotE2isAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVDhPnY+BDYUgEENZ4Va4FViBFf4KDucKzMIsmJ6WnCgEf5MmRvqeGML/qVc/h2BVCTXpmqhB6L5FAyGYSR4Qxj8VA1i8ExG/vUsAAiLMZ8AAfUcS5Pa1t6qqdSRAbJhzthLgl/GcUppKbFBKaUOKeslQgBCGiIIY49It2gCBgL8BkQPmEhwC8De5hn789u48cOa+y/kM9DkA+R66m+iA2L0AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingP2">
+<imgdir name="0">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACnSURBVDhPnY6BDQMhDAN/BVbICqzACl2B4boCszALlVMZuWnQq41kfUjs+1zXf7VEX6XLo6y89ew1BfniYWWb2OOLd7PLxVkKwUKDsQeglLKVQtSQCZ5a6zIz/6YQLFBjjDXndLMG0LfWjhAfItx7dxDMeGsAM+wxi4ANIQBX8BKACMEeoCOAZioCbq+ggYUrFEAP+wjZAJWG1Sv9R2V/iOHb+jkQ6wVC4uriAs5EmAAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVDhPnY+BDYUgEENZ4Va4FViBFf4KDucKzMIsmJ6WnCgEf5MmRvqeGML/qVc/h2BVCTXpmqhB6L5FAyGYSR4Qxj8VA1i8ExG/vUsAAiLMZ8AAfUcS5Pa1t6qqdSRAbJhzthLgl/GcUppKbFBKaUOKeslQgBCGiIIY49It2gCBgL8BkQPmEhwC8De5hn789u48cOa+y/kM9DkA+R66m+iA2L0AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="swingPF">
+<imgdir name="0">
+<canvas name="pants" width="24" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAAKCAYAAACuaZ5oAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVDhPrZCBCcMwDAS9glbQCl3BK3QFD9cVPItnSXmVF181CSnk4ZGI5XvFrd2nTXybEtq9ba/xuByg2xza7QNFhRFyOYAbPd0SpD3OCYZreAVWxRCAhKISigqbWRrz2lcglOm99zCG55xhhdHuHo7nco87qHshCR1jhNFD/I4QAtW62FHIFxiGNGStFZdYGVa31JB69vM8EIf5B7DOKkB0dhaqkOq/9AaJsdtYBqEs/AAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACtSURBVDhPrZABDUMhDESxUAu1MAtYmAXEzQJa0MJyTY5fYN1I9i+5QKB9V0jpXnXn2zSgKqm/yuM4wE8T+qliUMDpKCBsxsrpuOdd1gssItanqltIzzkPl1KGUdxa67VWA3wz4WvABqVxDjEYIX4QmEBCeba9wAcRzEYIr2CIhzqY7aMAagoClIEM4pd9gvvaKICyAjRwekxO836BTD9wEgKtsF9NBj+o+0sT+A1VzgGnnr+vzwAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="20" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADTSURBVDhPrZKLDcMgDESzAiuwAiuwQldglszSFTJLZqF6Vh1dSEzVqiedCP48DMqy/E/97YvCRCCrX9c17Os1H9CPRjktfdu2GPjIqT9bsZVi/dYcBwMijkIghTQoRL/JY/Zy1RiYczanlKZ2CLWllAvQAiTcaN93u1at1WJ+mAPG/QEjQFNrzYzYAyRnb3UD00NOQIchL3IBZe+rA/0mI+wEZGUaPRkT490Ups9wOx1NTKGTyf91sgKn042NY7H2REArmDTf6SPwW02v/IvGJzmAL+zDOpB07gcMAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="pants" width="18" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACYSURBVDhPnZCBDYAgDARZoSt0BVZgBVdgOJfE9PWRaBuUJhdj+h6PKa1Nu1geCIqerMraXnNTSWBFhA8oMEQE5Jw/yRCyFpsKGlCgqp1IxAVONoHhCaYiNhglpRRgVyGR6GxxLwBb1FoBZVEjvHinMfhsNO69H/5qNOJJvFZdxqc1eAQBW8xE40Shfh0KncxrosBv0Wy65AB5+bh7tVAndgAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-2"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabO1">
+<imgdir name="0">
+<canvas name="pants" width="18" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPnZKLDcMgDESzAit4BVZgha7AcFmBWZiF6iFdwq+0zUknDLIfxuI4bpXBj1WCHeWMvrzMjdCdJ1UQECyguRtOrD25H0FmVpxz1SRiCttY3oJCCMV7Xy3gzqvn1WJAMcZrlXLO1wVY3ROztrB6SLFAiDMgJKeU6qpC5Qs8dUMBMQVA2GPdTqwnkdd1I4i6URftzLCATfE07K4rYs1GHS0gS3UgDZe9jL5BpOmJuuCXTkZ1X0BD/RciPSp+Ax1cGbGazqnoAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="22" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPrdGLDYMwDATQrMAKXiErZIWukOFYIbNklqCzOMsNbqhaLJ3CJzwdkNIzM848MsSGbGkU+Q9/w5C95p9hw16yaYABIi4imjvYIDYDBJDNFD0xj36Fe4xNZwzJORu6gvVGKUVTa9Vgeu8aXAc2N8X1CA5BHLfWbAWINWrL/R6+gGyJFQ/7xkCI239wsG99QXnO4SdAcEzQvzGfCT/F3B4rX3dKNKt7OjOy3PxpDqjWA1DY46RfAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-2"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabO2">
+<imgdir name="0">
+<canvas name="pants" width="18" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACfSURBVDhPnZABDcQgEASxgIWzgAUsvAXE1QJa0HKfIb9NC7TfdJMNl+ZmSghhjr/sFN9K8o9FtzjP2cJpppciQMGcggUyq7eilJLHGB93JfKccy+y1prXWnvNrBeQk12dl5JSihNmZEiRSfJIdJQoyIAklWQl2iWUvwNomerbD+z7t6IxeqdRovkoOt1G70QRrIDxFsouGqAR/ptX0JgvVGz9WH24XHkAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="23" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABcAAAAMCAYAAACJOyb4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVDhPrZCBDcMgDASzQlZgBVZgha7AcFmBWZgl1Vt56wNuG1W89AIR+/zxtq3ReXmZCDxLWgN3YNrv/neAA19pNx81G8zhKZmfwB3GhIAByoQGFqCAf8KhG5CJCVQTmnM2fxtgH0sp5lqrGeq9m/EOyAjm+yf4BMW9teYnmnFGqVkfDXCgpuWvanJAMUB27MmjAV40Jqe4Dhj3MZn2c0BQMw9ieoFOTaJwLZEU9qjhkte9Aft/AEKCupadAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-3" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabOF">
+<imgdir name="0">
+<canvas name="pants" width="13" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAAA0AAAAHCAYAAADTcMcaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABGSURBVChTY2BABf+xYILgv5KS0v/du3eDaRAmZMD/u3fvwjXAFLq4uGAzAKIBBEAKiFEM1oCOkTWjK8YH4DaRogkEcNoEAIBRQ1cSj5x6AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="20" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVDhPpdCNCQMhDAVgV8gKruAKrtAVHK4rOIuzpLyUJ+Ed/bENhHgX8xEs5b9w/fFrAPI5Z1RtnkQA1YrfR/Nen9966VNwKABAAJGB1/oVuhFuc6sWZ6BmFnkEAsgQKqHW2sZ4ViCH9959rRWPjiSUAZ6R77bcGCowVg4qiD5hRaOJYOWWGGbybYmNMaLqlruJRPAiNyaUF8hzLzEiCVBI49LXwcuFk3gATajOMomE5psAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="24" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPtZGBCcUgDERdIStkBVdwhb/Cn8VZuoLDpVzKSRp+5UPbg0Or5l1CS3lWlg+eEsDW9Fjz5R05cPtWUynTd0MI8I4jWERMVf8KmJDsj4p3jJUBABNOr0L8AYoBAYBA7HFOE8yaWqv7KuAYuzV3792NPUHZBBGOt1cBNsaYjyCuULzLkDgB73PALAYIwjfFPceP/yN2GEN+TZELV14pN/GKTuAdoJ7N7pvdza4AAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-2"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabT1">
+<imgdir name="0">
+<canvas name="pants" width="20" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVDhPpZCBCcAgDARdwRWyQldwha7gcF3BWZzF8oGEGJRafTjQYq6vIZynGbajkidf7aZ4JGQJxdAR476UG4kIe8iIaF8IgTSCKKW0LeRB2wiyFaE+ugVDpZShcCbTQ0itldeQCBCJ7Ou6+jc5BCD11/Stp7KcMwOJDfZgNDj61smAbeoaLcUPeX7lBVk0t+L54tMKAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="19" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAYAAAAGRPQsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC+SURBVDhPpZGLDcMgDERZwSt4BVZgha7Q4boCszAL1Zkcci2QGmLpxCe+pzNJ6az6pcfViw49BfbPO3eVAVPVY6BBKI56F2jNSGRpJHURsbuc898wa3qpzLFwBoiwUorBVsAZnSMhDWC8I4hmwHbpzEgAx1mJZoCYLsIMyNhQrXUKZw/yMKwRZo34CKHQ1FqbYKzO+AP2sNlIE4QCjHfYhwTr0ZgIgon78MDRHM/jr9AYawPZVnzEqNt1bPT1BZnK7Ubm7vH+AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-6" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="27" height="9" basedata="iVBORw0KGgoAAAANSUhEUgAAABsAAAAJCAYAAADDylfFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACtSURBVDhPtVDBDcQgDGOFrJAVWIEVbgWG6wrMwiw9mZOjNE2vn9aSBU0dO6SUd7DHwtNAwOLWK++3sCbHDAcNAlSKsenf3t/PWuuJ0dibf1QWYQ6idjeoGbfW9t67Ed9jjMU5p+lEJCW8VNWYBS5TBvEOAjDniVCcMKLGbyBuJWwmDwL8Ha9CECf2wdTRy2+Fw/gXHvZMUQwAUWM99vFlfnjQB2U4mVwwQ9SY7gtPg/8SLiJcWQAAAABJRU5ErkJggg==">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabT2">
+<imgdir name="0">
+<canvas name="pants" width="19" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAOCAYAAADNGCeJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVDhPrY+BDcMgDARZwSt4ha7ACl2hw2UFZmEWorf0lusEpNC+9MIB/9kp5T8a+WJXo6rBtoAMmo/P6xHsK4wgACrFHd7nQRjNnI76reJ1Al1gkE9HkADWeZiIDFVdwwhAM+ybqnqYbzOYN/feR2vNzfsY5vcUVGs1EE9CAMwboucOZo8Qw1GAIoQzgpa/hwYKmzCAmhtNfAXx98LE28BKBoB3wlk/A6gTIH3j+m+ijIEAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-1"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="19" height="16" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC5SURBVDhPrdCBDYMgEIVhV2AFVmAFVugKDNcVmMVZaP4zz8CVppV6yUVE+Hi4bWvV/MQ/BXYb2HK8B2wxDNgyaBDNOISwjFmaHosxLoHtWZJhtICrmC18xDC9Xs75J/A4ORyJwPTD2egxeobZpAAlEqAU2lxKOcEpxoeUkvW+763Wau0hrQWcYXYKH2mKd0BggR7TuMcGiDGtAmQjT5fg/WoeokijJKTyp3+qIU1/zdkVvpXfdBlQvQAUvOWj62DUDAAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="1"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="28" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABwAAAAKCAYAAACngj4SAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC4SURBVDhPtZCBDcIwDASzQlbwClkhK7BChusKmSWzBL3RV580pRTBS6dCDT7bIfw2XfhbdslWUrf4uVCnu5p0kGQLLiL4/ua/np5ScnLOjpk5iwFc8rDooDmFMUbnYtiXDJJSygDeoQZxa63XWh02nqFoGvQQL3AzomIEYkjRDFJeQKHs5EKHeIGn5dYInroh6ypWGa9zS6xyZN6GMv09a3ohfD4TrbKLsaFuuZh4kE/cztzgqybIE/6rAoRA8CGgAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="3" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="stabTF">
+<imgdir name="0">
+<uol name="pants" value="../../swingPF/0/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../swingPF/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<canvas name="pants" width="20" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADTSURBVDhPrZKLDcMgDESzAiuwAiuwQldglszSFTJLZqF6Vh1dSEzVqiedCP48DMqy/E/97YvCRCCrX9c17Os1H9CPRjktfdu2GPjIqT9bsZVi/dYcBwMijkIghTQoRL/JY/Zy1RiYczanlKZ2CLWllAvQAiTcaN93u1at1WJ+mAPG/QEjQFNrzYzYAyRnb3UD00NOQIchL3IBZe+rA/0mI+wEZGUaPRkT490Ups9wOx1NTKGTyf91sgKn042NY7H2REArmDTf6SPwW02v/IvGJzmAL+zDOpB07gcMAAAAAElFTkSuQmCC">
+<vector name="origin" x="9" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="4" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<uol name="pants" value="../../stabT1/2/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="shoot1">
+<imgdir name="0">
+<canvas name="pants" width="16" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACjSURBVDhPnY+LDQQhCAVtwRZowRZs4VqwuGvBWqyFy5C8213dT7IkBITHIClt5i99A3ws+7eViJbTkhOVVzsBUGRAQ0Rq5ETl6i2AUoqbmeecF1f99oRaq48xvPceLqAczT4/DCPGBOENBDG5NPRPATRaawHBgCAU7BGAkCaur+sM3UvtEjBv1/cn4R+2rwdV92v7LJJ2eofFdhzAxeCjvR78AYk24OxcN3jdAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="shoot2">
+<imgdir name="0">
+<canvas name="pants" width="16" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAYAAACgu+4kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACiSURBVDhPnZCBDcMgDASzAit4BVZgha7AcFmBWZjF1SF9QlMnSHnpZYv4D5xtO+UvfQI+lnyveVRL219PVV8sAHBIQCEqZ/SqcgjIObuZeUpp6XCFUor33r21NiygzMzcz+EBQIIQBsIw/TJMsNY6IAgIw1S+aeYWoEGsp2sN7fsIuN6usG4P/AvQ/vOPAxINX3XsP4fvbop0AJ6euNKrEPoCgODmXtlGb2wAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-4" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="3">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+<imgdir name="4">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="shootF">
+<imgdir name="0">
+<canvas name="pants" width="18" height="12" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPlZCBDcMgDASzAit4BVZgha7AcF2BWTKLq3P7wiVNqlh68QRzfrJts/xEt8ufvfrDSgjf7AC90gRxEQmGrMwBeA3B6+wAKqW4mYXwsf9cZgBeq7RCAlRr9daa995D+H3ffYwREhydPStAGYIoVmCcASMtA+nHX4IoPI05kZ4tkNYvCA05EQBdlIDlNBqWYYdnsVcpVf4vKc05SBAlWZt/7N8fV8gF4G+tMW8DXjzGAkByP8Q5AAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="2" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAANCAYAAABPeYUaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVDhPnZABDQMhDEWxgAUsYAELs4C4WUALWlgey2e045bcmvzQ3tHXX0IIYVzoVoxnzeOR4pTyA/RKb0hJYUG8UvwMIecuNbmBpJRGjNGIy0iNyiVqv/bIOU+VUqYAc7bWlvYhfp0FoanWOkVOcPbeJxQQtdwj+y4bgCblCr5pkO7vEONC68gF/zR1d+LX+YKolgO9iQOYOLqgWUBEfWrew7iQnO2fAGIB7jSd4u/GF8KVDJyZnC1IAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="0" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../1/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="proneStab">
+<imgdir name="0">
+<canvas name="pants" width="16" height="14" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACHSURBVDhPpdLJDcAwCARAWqAFWkgLbiEtUFyadATWKoSHT0sor52sDyKimmZ71Vv4GHPEppSyBdVHLwdExBH7rkKtgXxbMSRAw+UtDEALzCziYTQAoqrTSPs7/+tHZAjYFgBkZKaFhyOwingYZ4BARLph3ABzews51A3j9HM4XmXY1hc8GHoBuNirqlodv0gAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-6" y="6"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="prone">
+<imgdir name="0">
+<uol name="pants" value="../../proneStab/0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="heal">
+<imgdir name="0">
+<uol name="pants" value="../../alert/1/pants"/>
+</imgdir>
+<imgdir name="1">
+<uol name="pants" value="../../swingO2/1/pants"/>
+</imgdir>
+<imgdir name="2">
+<uol name="pants" value="../../swingO2/0/pants"/>
+</imgdir>
+</imgdir>
+<imgdir name="fly">
+<imgdir name="0">
+<canvas name="pants" width="14" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACkSURBVDhPnZGBCcQgDEVdwRWygiu4wq3gcLeCszhLjhdISUpt6X34ROt/JtJS3kmD0+bW39G0SwD58JGqUvOayp41BkoggRjmMAYdPE1QtPeuImKutW4doePRwHitpXNOs1/WWjOA9SWIYnV4BxlIJ4e8K2FqfM4ljBgLE+ICD9+CYwyDvWsIbiFkYWC/3cf081M+KYFP4ajjt7yBXNb1HxA9Qj/oAtoE+ChzfAAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-3"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="14" height="15" basedata="iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAYAAADUFP50AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACXSURBVDhPnY4LDcAgDERnoRZqAQtYmAXEzQJa0NLlunQ59mFhl1xooY/rsszJyF0z9FaSZSUQF6uKqfQ1zhhGD3cgGh7mmqHLBsfuIjL0E3Sk5mwpJWutWa3VraruAOmDTgaVUhzGRwzjPc4biOEQYGwQ8NOaLE+EOXGUFrolXtJeQehMBPw1zHIo4BkQcnAWgn6lhYbQDl1RxKLaPHSGAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="6"/>
+<imgdir name="map">
+<vector name="navel" x="-5" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="jump">
+<imgdir name="0">
+<canvas name="pants" width="19" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAALCAYAAACd1bY6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVDhPpY/RDcMgDESzAit4ha7ACl2B4bICszAL1UMyOlIXPnrSydiYl8t1/a8uDqULW9/l1bMdYCy9LXVL65nqAHp8hPFIAX7moYJSSpo01Fg6mT0z24Nyzr2UMmqtdZoeiAOov2BjCMRBiGUHURXGLILNNBjROxC11pYkVO6/QGqFeCI3QAVFqZ6av6up5INjJ0q105L4eRnNPv8Z2oyYyduhAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-4"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="sit">
+<imgdir name="0">
+<canvas name="pants" width="19" height="7" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAHCAYAAADqF3ZBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABrSURBVChTlY4LDcAgDESxgIVamIVamIWKmwW0oOWWI4Hw6cK45MI1bd4Rwl448FaQGPDYhVtiyXw5M9edB5ubBoCX6zzDoKqgcs5IKRUzi8hS8uERZGbNBM2HzIT3Xn5VAYR6bf2t43/LE730HXzIZTzzVwAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="1" y="-5"/>
+</imgdir>
+<string name="z" value="pants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="ladder">
+<imgdir name="0">
+<canvas name="pants" width="18" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACJSURBVDhPpZGBCcAwCARdwRVcwRVcoSt0uC5p+YDBWEkLFR5Fn/uUEhH5Dy3l16luQn4Ijxk9z7hhFqYh7FpQQHaCBwIIvQWp6pSZTeU9JCLOzEMtKI4drIIBC2ALy2kZ2im86BW2pOXEvPvyqmlKv3ZRfPLbqx6mmlTBUAvKifW4qdb3SKyGXd34u8vOrQOE2wAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-6"/>
+</imgdir>
+<string name="z" value="backPants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="17" height="11" basedata="iVBORw0KGgoAAAANSUhEUgAAABEAAAALCAYAAACZIGYHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACKSURBVChTpZHRDYAwCERZgRVYgRW6gis4nEtiTkMDLbYfklxKKveORqK37Id62XWqNSE7hJ8eZ+zxDb0wPcLdBHHASpiBAME5QZjZVNVaa0m4E5EuzEHoJ4gPwPQFc2AFSYme5KZRcaMS4hvtYCUkJoRflxRnqidNhpjgQRVs3GZX3bwJW9ZoTOYbHfLFbmqFvmIAAAAASUVORK5CYII=">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-6"/>
+</imgdir>
+<string name="z" value="backPants"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="rope">
+<imgdir name="0">
+<canvas name="pants" width="16" height="13" basedata="iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAYAAACgu+4kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVDhPpZCBCcUwCERdwRVcISu4QlfocF3SonCgxh/4VDg0Hr7EEBHZB0XYcy9TIbuEo/aM2vsur4Up5F4BYHgSAJADPBfAWiukqpvgiUiImSMXgDdPEIAypADQzKBfGgGdfgJNaxQzQ/C67E2AbQ0MI/cXHNdIRjmfAOWXMxWgDt0Ag3p0f7rs74jhFyzx7XmVq5YYAAAAAElFTkSuQmCC">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-2" y="-6"/>
+</imgdir>
+<string name="z" value="backPants"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="pants" width="19" height="10" basedata="iVBORw0KGgoAAAANSUhEUgAAABMAAAAKCAYAAABWiWWfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACJSURBVDhPpY+LDcAgCAVdgRVYwRVcoSt0uC5p82wf9QNJm5JcFMFDU3qi3nyJ8E499sziKzaVWFb0Ak0QY+WeNexVUgN5KFNVk3lQCJpQNZblnKuItLWUMoAzAAFBryczAYU868XMKUXPLBxEztRFMr+u/67JZolHL6a8f91ygYUgrMf5xa8Yhp+fEbFPRUKxdQAAAABJRU5ErkJggg==">
+<vector name="origin" x="10" y="5"/>
+<imgdir name="map">
+<vector name="navel" x="-1" y="-5"/>
+</imgdir>
+<string name="z" value="backPants"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
